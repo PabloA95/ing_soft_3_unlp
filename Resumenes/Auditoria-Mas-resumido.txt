@@ -1,0 +1,261 @@
+RAZONES PARA CONTROLAR
+1. COSTOS POR PÉRDIDAS DE DATOS
+2. COSTOS POR DECISIONES INCORRECTAS
+3. COSTOS POR ABUSO COMPUTACIONAL
+4. COSTOS POR ERRORES DE COMPUTACIÓN
+5. VALOR DE HW, SW Y PERSONAL
+6. MANTENIMIENTO DE PRIVACIDAD
+7. EVOLUCIÓN CONTROLADA DEL USO
+
+AUDITORÍA DE SISTEMAS DE INFORMACIÓN
+La auditoría de sistemas de información es el proceso de recolectar y evaluar evidencia para determinar si:
+1) el sistema automático preserva los activos,
+2) mantiene la integridad de los datos,
+3) permite que los objetivos organizacionales se alcancen con eficacia,
+4) usa los recursos con eficiencia.
+Muchas veces la auditoría tiene otro propósito: asegurar que la organización cumple con determinadas regulaciones, reglas y condiciones, ya sea voluntaria o involuntariamente.
+
+IMPACTO DE LA AUDITORÍA EN SI
+1. SALVAGUARDA DE ACTIVOS
+2. INTEGRIDAD DE LOS DATOS
+3. EFECTIVIDAD DE LOS SISTEMAS
+4. EFICIENCIA DE LOS SISTEMAS
+
+SISTEMA DE CONTROL INTERNO
+Un sistema de control interno incluye:
+1) separación de obligaciones,
+2) delegación clara de autoridad y responsabilidades,
+3) reclutamiento y entrenamiento de personal calificado,
+4) sistema de autorizaciones,
+5) documentos y registros adecuados,
+6) control físico y documentación sobre los activos,
+7) chequeos independientes de performance,
+8) comparación periódica de activos con registros contabilizados
+El uso de computadoras afecta de varias maneras la implementación de los componentes de un sistema de control interno.
+
+LA COMPUTACIÓN EN AUDITORÍA
+La función de auditoría no cambia. En sistemas automatizados es más complicado recolectar evidencia. Es más difícil evaluar las consecuencias de las fortalezas y debilidades de los controles en pro de la confiabilidad general del sistema.
+Los controles internos que aseguran la alta calidad en el diseño, implementación, operación y mantenimiento de los sistemas, son críticos.
+FUNDAMENTOS DE LA AUDITORÍA
+-AUDITORÍA TRADICIONAL
+-ADMINISTRACIÓN DE SISTEMAS DE INFORMACIÓN
+-CIENCIAS DEL COMPORTAMIENTO
+-CIENCIAS DE LA COMPUTACIÓN
+
+CONTROLES
+Un control es un sistema que previene, detecta, o corrige eventos ilegales.
+TIPOS DE CONTROLES
+-Control Preventivo
+-Control Detectivo
+-Control Correctivo
+
+OBJETIVO DE LA AUDITORÍA
+Reducir las pérdidas esperadas por eventos ilegales mediante:
+1) controles preventivos
+2) controles detectivos y correctivos
+La tarea del auditor es determinar si los controles están ubicados y funcionan para prevenir los eventos ilegales.
+
+¿CÓMO ADMINISTRAR LA COMPLEJIDAD?
+1) factorizar el sistema en subsistemas
+2) determinar la confiabilidad de cada subsistema, y las implicancias de cada uno de ellos en el nivel de confiabilidad general del sistema
+CONFIABILIDAD DE SUBSISTEMAS
+Primero - determinar el menor nivel de los subsistemas.
+Segundo - evaluar la confiabilidad de los controles en cada subsistema.
+
+CONFIABILIDAD DE LOS CONTROLES
+Los auditores deben recolectar evidencias sobre la existencia y confiabilidad de los controles, para determinar si las pérdidas por los eventos ilegales se reducen a niveles aceptables.
+Para cada evento ilegal, se debe considerar:
+1) cómo los controles cubren a ese tipo de evento,
+2) cuánto de confiable son los controles,
+3) si puede ocurrir un error material o una irregularidad.
+Se publican listas que ayudan a realizar esta tarea. Las listas muestran los controles que se pueden realizar para reducir las pérdidas esperadas por errores o irregularidades.
+
+ESTIMAR LA CONFIABILIDAD
+La evaluación de la confiabilidad procede de abajo hacia arriba en el nivel de estructura de los sistemas.
+ESTIMAR LA CONFIABILIDAD - PASOS
+En cualquier nivel de la estructura, los pasos de evaluación son:
+1) identificar las transacciones que ingresan al sistema
+2) considerar los eventos legales e ilegales que puedan ocurrir
+3) asegurar la confiabilidad de los controles que detectan los eventos ilegales
+DETECTAR NUEVOS CONTROLES
+
+RIESGOS DE LA AUDITORÍA
+El riesgo de auditoría es el riesgo de que un auditor fracase al detectar las pérdidas materiales reales, o potenciales, o los registros incorrectos.
+RDA = RI * RC * RD
+
+TIPO DE RIESGOS
+1) Riesgo Deseado
+2) Riesgo Inherente
+3) Riesgo de Control
+4) Riesgo de Detección
+
+- Primero los auditores eligen el nivel de RDA. Evalúan las consecuencias de fracasar en detectar las pérdidas materiales reales o potenciales.
+- Luego, se considera el nivel de RI. Los auditores consideran factores generales tales como la naturaleza de la organización, etc. Se consideran luego los RI asociados con diferentes segmentos de la auditoría.
+- Para evaluar el nivel de RC asociado con cada segmento de la auditoría, se debe considerar la confiabilidad de los controles gerenciales y de aplicación.
+- Finalmente, se calcula el nivel de RD que se debe lograr para cumplir con el RDA. Se diseñan procedimientos de recolección de evidencia para intentar lograr el nivel de RD.
+
+PROCEDIMIENTOS DE UNA AUDITORÍA
+Existen diferentes procedimientos de auditoría, dependiendo de lo que se deseecontrolar:
+a) determinar si ocurrieron pérdidas materiales o la información financiera es errónea
+b) determinar la eficiencia y eficacia de las operaciones
+	1) procedimientos para comprender los controles
+	2) testeo de controles
+	3) testeos sustantivos de detalle de transacciones.
+	4) testeos substantivos de detalle de balances contables (a) / testeos sustantivos de resultados generales (b)
+	5) procedimientos de revisión analítica.
+
+PLANIFICACIÓN DE UNA AUDITORÍA
+Las tareas que se realizan en la etapa de planificación varían dependiendo si es una:
+1) auditoría interna -> Los auditores internos se preocupan por el tamaño de las pérdidas que pudiera haber por operaciones ineficientes o ineficaces.
+2) auditoría externa -> Los auditores externos se preocupan por el tamaño de los errores en los estados financieros.
+
+TAREAS DE PLANIFICACIÓN
+1) determinar el alcance de la auditoría,
+2) emitir una opinión sobre el RDA,
+3) emitir una opinión sobre el RI,
+4) emitir una opinión sobre el RC,
+	La decisión más difícil está en emitir el juicio en el nivel de RC asociado con cada segmento de la auditoría. Para esto, los auditores deben comprender los controles internos usados dentro de la organización.
+	Los controles internos (CI) comprenden 5 componentes relacionados:
+	1) controles de entorno
+	2) evaluación de riesgo
+	3) actividades de control
+	4) información y comunicación
+	5) monitoreo
+5) calcular el RD que se debe lograr para cumplir con el RDA,
+6) recolectar evidencia
+7) documentar evidencia
+
+EVALUACIÓN DE RIESGO DE CONTROL - 1
+Si se evalúa que el RC < el nivel máximo =>
+	1) identificar los controles materiales que se relacionan con la evaluación
+	2) testear los controles para determinar si operan efectivamente.
+Premisa: los testeos de controles probarán, que si los controles funcionan correctamente, se puede reducir la necesidad de un tes
+
+		TESTEO DE CONTROLES - 1
+		El testeo de controles evalúa cuan confiables y específicos son los controles.
+		Se testean, sólo si el RC se determinó menor al máximo.
+		Se confía en los controles como una base para reducir el costo de un testeo más amplio. A esta altura, los auditores no saben si los controles identificados operan efectivamente.
+
+			CONTROLES GERENCIALES - TESTEO
+			Se comienza por los controles gerenciales.
+			Si los controles gerenciales, demuestran contrariamente a lo supuesto, que no operan eficientemente => no tiene sentido testear los controles de aplicación. ===> (va por la rama de la derecha del grafico)
+			
+			CONTROLES DE APLICACIÓN - TESTEO
+			Si los controles gerenciales funcionan efectivamente, se procede a evaluar los controles de la aplicación.
+			Luego de evaluados los controles, se vuelve a estimar el riesgo.
+
+		TESTEO DE CONTROLES - CONCLUSIÓN
+		Se puede concluir que los controles internos son más fuertes o más débiles a lo anticipado.
+		Si los controles son más fuertes a lo pensado, se puede pensar en reducir testeos.
+		Si los controles son más débiles, se pueden ampliar los testeos.
+
+EVALUACIÓN DE RIESGO DE CONTROL - 2
+Si se evalúa que el RC es de nivel máximo => no se testean los controles.
+	Se podría concluir que los controles internos no son efectivos.
+	Se debería realizar un testeo amplio.
+
+------------------------
+
+	TESTEO DE CONTROLES - CONCLUSIÓN
+		ACTITUD DEL AUDITOR
+		Durante esta etapa los auditores externos e internos pueden tener distintas actitudes.
+		1) auditor interno: puede expandir sus investigaciones para lograr una mejor comprensión a cerca de la naturaleza e implicancias de estas debilidades.
+		2) auditor externo: puede cortar sus investigaciones (sobre causas) y realizar testeos más amplios.
+
+TESTEO DE TRANSACCIONES
+Se realiza para evaluar si un procesamiento erróneo o irregular puede ocasionar pérdidas. Ejemplo: examinar cálculos, precios.
+Desde un punto de vista operativo, el testeo de transacciones sirve para determinar si el procesamiento es efectivo y eficiente. Ejemplo: consultas a una base de datos, carga de máquina.
+
+TESTEO DE RESULTADOS GENERALES
+Se realizan con el fin de obtener evidencia suficiente para realizar un juicio final sobre el grado de pérdidas que podrían ocurrir cuando el sistema falla en: salvaguardar activos, mantener la integridad de los datos y lograr efectividad y eficiencia.
+En general, este tipo de testeos, son los más caros de las auditorías.
+Ejemplo: Evaluar objetivos de salvaguarda de activos e integridad de datos => Testeos de control de inventario físico, Confirmación de recepción de mercaderías, Recálculo de amortizaciones
+
+	TESTEO DE RESULTADOS …
+	Si los auditores confían en que los controles son confiables, pueden limitar el número y alcance de estos testeos.
+	Si es a la inversa, aumentarán el grado de control para estimar mejor las pérdidas.
+
+EVALUAR EFECTIVIDAD Y EFICIENCIA
+Evaluar efectividad y eficiencia es más complejo.
+Se puede trabajar con los usuarios estimando las pérdidas por no haber tomado una decisión por no contar con la información en tiempo y forma. Ejemplo: evaluar la ineficiencia por compra de hardware inapropiado.
+
+COMPLETAR LA AUDITORÍA
+En la etapa final, se realizan testeos adicionales para cerrar la evidencia.
+Finalmente, se formula la opinión sobre cómo ocurrieron las pérdidas materiales o registros incorrectos en un informe.
+
+
+INFORME
+Un informe típico debería incluir:
+1) una introducción que describa los objetivos de la auditoría,
+2) el enfoque general utilizado,
+3) un resumen de las conclusiones críticas,
+4) recomendaciones para abordar las conclusiones críticas,
+5) datos que respalden las conclusiones críticas.
+OPINIONES DE AUDITORÍA
+1) opinión excusada
+2) opinión adversa
+3) opinión con calificación
+4) opinión sin calificación
+
+
+Gobernanza de TI
+La Gobernanza de TI es un subconjunto de Gobierno Corporativo de las organizaciones que se centra en los sistemas de TI, su desempeño y los riesgos asociados.
+GOBERNANZA DE TI
+- trata con la relación entre el enfoque empresarial y la gestión de TI
+- destaca la importancia de las cuestiones de TI
+- promueve que las decisions estratégicas de TI deben ser tomadas por una junta directiva corporativa
+METAS
+- asegurar que las inversiones en TI generen valor
+- mitigar riesgos asociados con TI
+
+"son estructuras y procesos de liderazgo y organizativos que aseguran que las TI de la organización sostienen y extienden las estrategias y los objetivos de la organización"
+
+ADMINISTRACIÓN DE TI: se trata de tomar e implementar decisiones de TI
+GOBERNANZA DE TI: se trata de quién toma las decisiones de TI
+
+
+COBIT (OBJETIVOS DE CONTROL PARA INFORMACIÓN Y TECNOLOGÍA RELACIONADA)
+Es un conjunto de recursos que contienen toda la información que las organizaciones necesitan para adopter un marco de gobernanza y control de TI.
+
+PRINCIPIOS
+1) Satisfacer las necesidades de las partes interesadas
+2) Cubrir la empresa de extremo a extremo
+3) Aplicar un marco integrado
+4) Habilitar un enfoque holístico
+5) Separar las funciones principales
+
+MODELO DE REFERENCIA DEL PROCESO
+CARACTERÍSTICAS PRINCIPALES
+✔ incorpora los principales estándares internacionales
+✔ está centrado en los negocios, orientado a procesos, controlado y medido
+✔ opera a un nivel más alto que los estándares de tecnología pura para la administración de sistemas de información
+✔ puede ser adaptado por organizaciones mundiales comerciales, gubernamentales y profesionales
+
+ELEMENTOS
+1 Procesos de TI y Dominios
+	PROCESOS DE GOBERNANZA
+		Contiene 5 procesos, para cada uno se definen prácticas de evaluar, dirigir y monitorear (EDM).
+	PROCESOS DE ADMINISTRACIÓN
+		COBIT clasifica la Administración de TI en 4 dominios
+		Alinear, Planear y Organizar (APO)
+		Construir, Adquirir e Implementar (BAI)
+		Entrega, Servicio y Soporte (DSS)
+		Monitorear y Evaluar (MEA)
+2 Objetivos de Control
+	Declaración del resultado o propósito a alcanzar mediante la implementación de procesos de control en una actividad particular de TI. COBIT proporciona objetivos de control de alto nivel, uno para cada uno de los procesos de TI. Cada objetivo de control de alto nivel se subdivide en una lista de objetivos de control detallados.
+3 Prácticas de Control
+	Las prácticas de control de TI proporcionan el más detallado POR QUÉ y CÓMO que necesitan ... para implementar controles específicos basados en un análisis de los riesgos operacionales y de TI.
+4 Guías de Auditoría
+	Las guías de auditoria describen y sugieren las actividades de evaluación que se corresponderán a cada uno de los objetivos de TI de alto nivel
+5 Guías de Administración
+	Las guías de administración proporcionan direcciones...
+	Para cada proceso de TI, las guías de administración incluyen modelos de madurez (MMs), factores de éxito críticos (CSFs), Indicadores claves de metas (KGIs), y indicadores claves de rendimiento (KPIs)
+
+BENEFICIOS - GENERALES
+- permite a los administradores públicos cerrar la brecha entre los requisitos de control, los problemas técnicos y los riesgos comerciales
+- permite un desarrollo claro de políticas y buenas prácticas para el control de TI en todas las organizaciones gubernamentales
+- enfatiza el cumplimiento regulatorio
+- ayuda a las organizaciones del sector público a aumentar el valor obtenido de TI
+- permite la alineación y simplifica la implementación de la gobernanza de TI en el sector público
+- ayuda a los gobiernos a proporcionar servicios mejores y más personalizados a los ciudadanos y las empresas
+- optimiza las inversiones en TI, garantiza una prestación de servicios efectiva y proporciona medidas

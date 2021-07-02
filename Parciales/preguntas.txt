@@ -1,0 +1,33 @@
+Que es Calidad
+Definir calidad de producto de Software y que normas ISO la mide
+Definir calidad de proceso de software y que normas ISO las mide
+Definir calidad de los datos y que normas ISO las mide
+Definir Sistema de Gestión de la calidad SGC
+Que es Auditoría y cuales son sus objetivos, que se necesita para alcanzar los objetivos
+Fundamentos de la auditoría
+Que es un control, tipos de control,
+Factorización de un sistema en la auditoría
+Determinar confiabilidad de un subsistemas en la auditoría
+Razónes de necesidad de nuevos controles en sistemas de alto nivel
+Riesgo de auditoría, Riesgo deseado de auditoría, tipos de riesgos
+Distintos procedimientos de auditoría
+Pasos de una auditoría
+Actitud del auditor
+Opinion del auditor
+Que es gobernanza de TI y Asministración de TI
+Que es Cobit, principios de Cobit
+Procesos de cobit
+Definición de Proyecto y sus características
+Definición de Programa y sus características
+Restricciones del proyecto y triángulo de alcance
+Administración de proyecto y principios de una buena administración
+WBS
+Top Down (equipo completo)
+Top Down (subequipos)
+Bottom Up (sub equipos)
+Completitud de una actividad
+Duración y esfuerzo de trabajo de una actividad
+crash de actividad y crashpoint
+Técnicas de estimación de la duración de una actividad
+Técnicas de estimación del costo de una actividad
+COCOMO, diferencia con COCOMO 2.0

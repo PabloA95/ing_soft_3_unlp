@@ -1,0 +1,266 @@
+La calidad realizada: la que es capaz de obtener la persona que realiza el trabajo.
+La calidad programada: la que se ha pretendido obtener
+La calidad necesaria: la que el cliente exige.
+
+Walter Shewhart - ciclo de Shewhart (PDCA) (Plan, Do, Check, Act)
+Edward Deming - 14 puntos para la administración, la divulgación del ciclo PDCA, 7 enfermedades mortales
+Joseph Juran - Trilogía: Planificación, control y mejora de la calidad
+Kaoru Ishikawa - Círculos de calidad y diagramas de causa-efecto
+Shigeo Shingo - Padre de Cero control de calidad y Poka Yoke
+Philips Crosby - Concepto de Cero Defectos y Vacuna de la calidad
+
+Definición de Calidad
+Propiedad o conjunto de propiedades inherentes a algo, que permiten juzgar su valor.
+Las principales normas internacionales definen la calidad como :
+“El grado en el que un conjunto de características inherentes cumple con los requisitos “ ( ISO 9000)
+“Conjunto de propiedades o características de un producto o servicio que le confieren aptitud para satisfacer unas necesidades expresadas o implícitas” (ISO 8402)
+
+Calidad de la Empresa
+	Calidad de los procesos de Negocio
+	Calidad de Sistemas de Información
+		Calidad de la Infraestructura
+		Calidad de Software
+			Calidad del producto obtenido
+			Calidad del proceso de desarrollo
+			- Son dependientes sin un buen proceso de desarrollo es casi imposible obtener un buen producto
+		Calidad de Datos
+		Calidad de Información
+		Calidad de gestión
+		Calidad de servicio
+
+-Diferentes aspectos en la medición de la calidad del producto :
+- Calidad interna : Medible a partir de las características intrínsecas, como el código fuente.
+- Calidad externa : Medible en el comportamiento del producto.
+- Calidad en uso : Medible durante la utilización efectiva por parte del usuario.
+
+-Los requisitos de calidad mas significativos del proceso de software son :
+- Que produzca los resultados esperados
+- Que estén basados en una correcta definición.
+- Que sean mejorados en función de los objetivos de negocio.
+
+- Calidad de Producto
+	Familia ISO/IEC 25000 Reemplaza ISO/IEC 9126 - ISO/IEC 14598
+- Calidad de Datos
+	ISO/IEC 25012
+- Calidad de Proceso
+	Modelo ISO/IEC 12207
+	Familia ISO/IEC 33000 Reemplaza ISO/IEC 15504
+	Para PyMEs ISO/IEC 29110
+- Calidad de Servicios
+	ISO/IEC 20000
+- Sistema de gestión de la calidad
+	ISO/IEC 9001 - ISO/IEC90003
+
+-Norma: Regla que se debe seguir o a que se deben ajustar las conductas, tareas, actividades, etc. Suele ser impuesta por alguna entidad.
+-Estándar: Que sirve como tipo, modelo, patrón o referencia. Un estándar suele emerger a partir del uso y las costumbres (o a propuesta de interesados también).
+-El término norma es más fuerte ya que define las reglas a ser seguidas mientras que estándar es una sugerencia a un modelo a seguir, comúnmente se los utiliza como sinónimos.
+
+-------------------------------------------------------------------------------
+
+IRAM-NM-ISO/IEC 9126 - Calidad de Producto de software (Reemplazada por ISO/IEC 25010:2011)
+Division:
+IRAM-NM-ISO/IEC 9126-1. Modelo de calidad.
+ISO/IEC 9126-2. Métricas externas.
+ISO/IEC 9126-3. Métricas internas.
+ISO/IEC 9126-4. Métricas de Calidad de uso.
+
+ATRIBUTOS DE LA CALIDAD INTERNA/EXTERNA
+- Funcionalidad (idoneidad, precision, interoperabilidad, seguridad, cumplimiento de la funcionalidad)
+- Fiabilidad (madurez, capacidad de recuperacion, tolerancia a fallos, cumplimiento de fiabilidad)
+- Usabilidad (inteligibilidad, facilidad de aprendizaje, cumplimiento de la usabilidad, operabilidad, atractividad)
+- Eficiencia (comportamiento en el tiempo, utilizacion de recursos, cumplimineto de la eficiencia)
+- Mantenibilidad (analizabilidad, cambiabilidad, estabilidad, pruebabilidad, cumplimiento de mantenibilidad)
+- Portabilidad (adaptabilidad, facilidad de instalacion, coexistencia, intercambiabilidad, cumplimiento de portabilidad)
+ATRIBUTOS DE LA CALIDAD DE USO
+	EFECTIVIDAD
+	PRODUCTIVIDAD
+	SEGURIDAD DE ACCESO
+	SATISFACCIÓN
+
+IRAM-ISO/IEC 14598 - Evaluación del producto de software (Reemplazada por ISO/IEC 25040:2011)
+Division:
+IRAM-ISO/IEC 14598-1 Descripción General.
+IRAM-ISO/IEC 14598-2 Planificación y Gestión.
+IRAM-ISO/IEC 14598-3 Proceso para desarrolladores.
+IRAM-ISO/IEC 14598-4 Proceso para compradores .
+IRAM-ISO/IEC 14598-5 Proceso para evaluadores
+IRAM-ISO/IEC 14598-6 Documentación de los módulos de evaluación
+
+6 Proceso de evaluación
+7 Establecer los requisitos de la evaluación
+	7.1 Establecer el propósito de la evaluación
+	7.2 Identificar los tipos de producto a evaluar
+	7.3 Especificar el modelo de calidad
+		(Selección de los atributos, características de la ISO/IEC 9126 a evaluar)
+8 Especificar la evaluación
+	8.1 Selección de las métricas (ISO/IEC 9126-2 /3/4 En función de los atributos a evaluar)
+	8.2 Establecer los niveles de puntuación
+	8.3 Establecer los criterios de evaluación
+9 Diseñar la evaluación
+	9.1 Elaborar el plan de evaluación
+	Describir los métodos de evaluación y el calendario de acciones a evaluar.
+10 Realizar la evaluación
+	10.1 Hacer mediciones
+	10.2 comparar criterios
+	10.3 evaluar resultados
+11 Proceso de apoyo
+
+RELACION ENTRE ISO/IEC 9126 Y ISO/IEC 14598 PAG 68
+
+
+Modelo de Calidad SQuaRE ISO/IEC 25000
+- ISO/IEC 2500n – División gestión de la calidad
+	Las normas que forman este apartado definen todos los modelos, términos y definiciones comunes referenciados por toda la serie SQuaRE
+	ISO/IEC 25000:2005 - Guide to SQuaRE
+- ISO/IEC 2501n – División modelos de calidad
+	Modelo de calidad detallado incluyendo características para calidad interna y externa y la calidad de datos.
+	ISO/IEC 25010 - System and software quality models
+	ISO/IEC 25012 - Data Quality model
+- ISO/IEC 2502n – División de medición de calidad
+	Modelo de referencia de la medición de la calidad del producto, definiciones de medidas de calidad y guías practicas de uso
+- ISO/IEC 2503n – División Requerimientos de calidad
+	Ayuda a especificar los requisitos de calidad que pueden ser usados en el proceso de elicitación.
+- ISO/IEC 2504n – División Evaluación de la calidad
+	Requisitos, recomendaciones y guías para la evaluación de producto.
+	ISO/IEC 25040 - Evaluation reference model and guide
+
+-Adecuación Funcional (completitud funcional, corrección funcional, adecuacion funcional)
+-Eficiencia (comportamiento temporal, utilización de recursos, capacidad)
+-Compatibilidad (coexistencia, interoperabilidad)
+-Facilidad de uso (capacidad para reconocer su adecuación, capacidad de aprendizaje, capacidad para ser usado, protección contra errores de usuario, estética de la interfaz de usuario, accesibilidad tecnica)
+-Confiabilidad (madurez, disponibilidad, tolerancia a fallos, capacidad de recuperación)
+-Seguridad (confiabilidad, integridad, no repudio, responsabilidad, autenticidad)
+-Facilidad de mantenimiento (modularidad, reusabilidad, capacidad para se analizado, capacidad para ser modificado, capacidad para ser probado)
+-Portabilidad (adaptabilidad, capacidad para ser instalado, capacidad para ser reemplazado)
+
+ISO/IEC 25040 - evaluacion
+1. Establecer los requisitos de la evaluación
+	1. Establecer el propósito de la evaluación
+	2. Obtener los requisitos de calidad del producto
+	3. Identificar las partes del producto que se deben evaluar
+	4. Definir el rigor de la evaluación
+2. Especificar la evaluación
+	1. Seleccionar los módulos de evaluación
+	2. Definir los criterios de decisión para las métricas
+	3. Definir los criterios de decisión de la evaluación
+3. Diseñar la evaluación
+	1. Planificar las actividades de la evaluación
+4. Ejecutar la evaluación
+	1. Realizar las mediciones
+	2. Aplicar los criterios de decisión para las métricas
+	3. Aplicar los criterios de decisión de la evaluación
+5. Finalizar la evaluación
+	1. Revisar los resultados de la evaluación
+	2. Crear el informe de evaluación
+	3. Revisar la calidad de la evaluación y obtener feedback
+	4. Tratar los datos de la evaluación
+
+-------------------------------------------------------------------------------
+
+NECESIDADES DE Calidad de los Datos PAG 59
+
+Calidad de datos:
+La capacidad de las características de los datos de satisfacer necesidades explícitas e implícitas bajo determinadas condiciones de uso.
+
+Inherente: Capacidad de las características de los datos de tener el potencial intrínseco para satisfacer las necesidades explícitas e implícitas. Este punto de vista está más relacionado con los aspectos del dominio gestionados por los expertos del negocio.
+Dependiente del sistema: Capacidad del sistema informático de alcanzar y preservar la calidad de los datos cuando los datos se utilizan en determinadas condiciones. Este punto de vista suele ser responsabilidad de los técnicos del sistema.
+
+LISTA CARACTERISTICAS PAG 61
+
+-------------------------------------------------------------------------------
+
+Calidad de servicio - ISO/IEC 20000
+Estándar reconocido desde el 2005 "para la certificación de Gestión de Servicios de TI de las Empresas"
+Division:
+El estándar comprende dos partes principales:
+Parte 1: ISO/IEC 20000 - 1 : 2011 - Especificación.
+Parte 2: ISO/IEC 20000 - 2 : 2012 - Código de Prácticas.
+Informes Técnicos de apoyo
+Parte 3: ISO/IEC 20000 - 3 : 2012 - Guía en la Definición del Alcance y su Aplicabilidad (informe técnico)
+Parte 4: ISO/IEC 20000 - 4 : 2010 - Modelo de Referencia de Procesos (informe técnico)
+Parte 5: ISO/IEC 20000 - 5 : 2010 - Ejemplo de Implementación (informe técnico)
+
+-------------------------------------------------------------------------------
+
+PROCESO
+Un proceso se define como un conjunto de actividades interrelacionadas que transforman entradas en salidas.
+ISO: “Proceso o Conjunto de procesos usados por una organización o proyecto para planificar, gestionar, ejecutar, monitorizar, controlar y mejorar sus actividades de software relacionadas”
+
+Gestión por procesos - Gestionar sus actividades con un enfoque basado en procesos proporciona a las organizaciones múltiples ventajas:
+- Facilita la orientación al cliente
+- Mejora la eficacia y la eficiencia de las actividades
+- Ayuda a estructurar las actividades de la organización
+- Permite mejorar el seguimiento y el control de los resultados obtenidos
+- Facilita la planificación, el establecimiento de objetivos de mejora y la consecución de los mismos
+
+Orientar la gestión de la organización mediante un enfoque por procesos requiere en primer lugar identificar cuales son sus procesos y las relaciones existentes entre ellos. Una organización puede describirse como un conjunto de procesos interconectados, que pueden plasmarse por escrito en un diagrama denominado Mapa de Procesos
+
+PAG 11 DEFS: Ciclo de vida de software, Proceso de software y Procesos organizativos 
+
+
+Modelo de Calidad de los Procesos Software
+
+Un modelo de calidad software puede definirse como una herramienta que guía a las organizaciones a la mejora continua y a la competitividad, proporcionando un conjunto de buenas prácticas para el ciclo de vida del software.
+Un modelo no es una metodología, dice qué hacer pero no cómo hacerlo, esto se debe a que estos modelos están pensados para que cada organización pueda adaptarlos según sus objetivos de negocio y las metodologías que utilice.
+
+ISO/IEC 12207:2017 - Procesos de ciclo de vida del SW
+ISO/IEC 12207 establece un modelo de procesos para el ciclo de vida del software
+Listas de procesos a implementar en 4 divisiones:
+a) Agreement processes
+b) Organizational Project‐Enabling Processes
+c) Technical Management Processes
+d) Technical Processes
+
+ISO/IEC 15504 - Mejora de Proceso
+ISO/IEC 15504 es una norma internacional para establecer y mejorar la capacidad y madurez de los procesos de las organizaciones en la adquisición, desarrollo, evolución y soporte de productos y servicios
+Parte 1: Conceptos y vocabulario (normativa)
+Parte 2: Realización de la evaluación (normativa) -> Nivel de capacidad
+Parte 3: Guía para la realización de la evaluación
+Parte 4: Guía sobre el uso para la mejora del proceso y determinación de la capacidad del proceso.
+Parte 5: Un ejemplo de modelo de evaluación de procesos.
+Parte 6: Un ejemplo de evaluación del ciclo de vida de sistema
+Parte 7: Evaluación de la madurez de una organización (normativa) -> Nivel de madurez
+
+Niveles de Capacidad y Madurez
+
+
+ISO/IEC 33000
+Reemplaza ISO/IEC 14504
+- Modelos de procesos: Definen procesos entidades de evaluación.
+- Marcos de medición de procesos: Proporcionan escalas para evaluar características de calidad de proceso especificadas (capacidad) de las entidades (procesos).
+- Procesos de evaluación documentados: Proporcionan una especificación del proceso a seguir durante la evaluación.
+
+-------------------------------------------------------------------------------
+
+SGC - IRAM - ISO 9001:2015
+Determina los requisitos mínimos para un Sistema de gestión de la calidad orientado a asegurar conformidad del producto, aumentar la satisfacción del cliente y la mejora de la eficacia del sistema
+
+NORMAS COMPLEMENTARIAS
+BENEFICIOS DE TRABAJAR CON UN SISTEMA DE GESTIÓN DE CALIDAD
+
+PRINCIPIOS DE GESTION DE LA CALIDAD
+- ENFOQUE EN EL CLIENTE
+- LIDERAZGO
+- COMPROMISO DEL PERSONAL
+- ENFOQUE BASADO EN PROCESOS
+- MEJORA
+- TOMA DE DECISIONES BASADA EN LA EVIDENCIA
+- GESTIÓN DE LAS RELACIONES
+
+1. Alcance
+2. Referencias normativas
+3. Términos y definiciones
+4. Contexto de la organización
+5. Liderazgo
+6. Planificación                    -> Plan
+7. Soporte                          -> Do
+8. Operaciones                      -> Do
+9. Evaluación del rendimiento       -> Check
+10. Mejora                          -> Act
+
+-------------------------------------------------------------------------------
+
+ISO 90003:2018
+IRAM-ISO 9001:2015 es de aplicación genérica
+ISO 90003 basada en ISO 9001:2015
+Son directrices para la interpretación en el proceso de software. Proporciona una guía para identificar la evidencias dentro del proceso de software para satisfacer los requisitos de la ISO 9001

@@ -1,0 +1,505 @@
+ADMINISTRACIÓN DE PROYECTOS
+Un proyecto es una secuencia de actividades única, complejas y conectadas que tienen un objetivo o propósito y que deben ser completadas en un tiempo específico, dentro del presupuesto y de acuerdo a las especificaciones.
+CARACTERÍSTICAS
+- alcance limitado con productos concretos.
+- el éxito se mide por el presupuesto, el tiempo de entrega y los productos que cumplen las especificaciones.
+- se trata de mantener los cambios al mínimo.
+- dirigido y coordinado por una persona responsable (líder o gerente de proyecto)
+
+LiDER DE PROYECTO
+Es el responsable de detectar las necesidades de los usuarios y gestionar los recursos económicos, materiales y humanos, para obtener los resultados esperados en los plazos previstos y con la calidad necesaria.
+TAREAS DEL RESPONSABLE DEL PROYECTO
+- desarrollar el plan del proyecto, identificar requerimientos y el alcance del proyecto, comunicar y reportar a interesados, administrar recursos humanos y materiales, controlar tiempos, identificar y controlar riesgos, administrar costos y presupuesto, asegurar de la calidad, evaluar el desempeño del proyecto
+
+PARÁMETROS DE UN PROYECTO
+1) Alcance
+2) Calidad
+3) Costo
+4) Tiempo
+5) Recursos
+Son interdependientes - un cambio en una, implica un cambio en las demás.
+
+El triángulo de alcance determina que el balance del costo, tiempo y disponibilidad de recursos, van a definir el alcance y la calidad del proyecto. Son controlados por el líder del proyecto y necesitan ser identificados de manera Independiente. Cualquier imprevisto hace desbalancear el proyecto.
+
+CLASIFICACIÓN DE PROYECTOS
+1) Duración
+2) Riesgo
+3) Complejidad
+4) Valor comercial
+5) Costo
+
+CAUSAS DE FRACASO DE PROYECTOS
+No prestar la suficiente atención a caso de negocio, calidad, y a la definición y medida de los entregables
+Inadecuada definición de responsabilidades, y planificación y coordinación de recursos
+Pobre estimación de duración y costos
+Falta de comunicación con los interesados, compromiso de los interesados, control de calidad, y control de avance
+
+ADMINISTRACIÓN DE PROYECTOS
+Es la planificación, la delegación, el seguimiento y el control de todos los aspectos del proyecto y la motivación de los participantes para alcanzar los objetivos del proyecto dentro de los objetivos de rendimiento esperados en términos de tiempo, costo, calidad, alcance, beneficios y riesgos.
+ADMINISTRACIÓN DE PROYECTOS DE SOFTWARE
+El objetivo de administrar un proyecto de software es aplicar buenos principios y técnicas de administración de proyectos y de ingeniería de software a fin de que el producto se entregue al mínimo costo, mínimo tiempo y sea de buena calidad.
+
+DESAFÍOS DE LA ADMINISTRACIÓN DE PROYECTOS
+PRINCIPIOS DE UNA BUENA ADMINISTRACIÓN
+- Los proyectos siempre necesitan ser gestionados para tener éxito
+- El proyecto es un proceso finito con un comienzo y un final definidos
+- Se requiere un compromiso sincero de todos los interesados
+- Normalmente se requiere entrenamiento.
+
+PROGRAMAS Y PROYECTOS
+Mecanismos claves usados por las organizaciones para administrar sus agendas. La Administración de Programas y la Administración de Proyectos son complementarias
+
+PROGRAMA – CONCEPTOS
+- Es un grupo de proyectos relacionados que se gestionan de manera coordinada para obtener beneficios.
+- Se ocupa de los resultados
+- Proporciona un paraguas bajo el cual estos proyectos pueden ser coordinados.
+- Integra los proyectos de modo que pueda producir un resultado mayor que la suma de sus partes.
+
+DIFERENCIAS ENTRE PROYECTOS Y PROGRAMAS
+
+RELACIÓN ENTRE PROGRAMAS Y PROYECTOS
+Un programa vincula proyectos de varias maneras:
+- Interdependencias de tareas entre proyectos
+- Limitaciones de recursos a través de múltiples proyectos
+- Actividades de mitigación del riesgo
+- Escalamiento de problemas, cambios de alcance, calidad, gestión de comunicaciones, riesgos, etc.
+
+---------------------------------------------------------------------
+
+WBS
+es una descripción jerárquica del trabajo que se debe realizar para completar el proyecto.
+El WBS es una herramienta para:
+1) diseñar y planificar el trabajo
+2) diseñar la arquitectura
+3) planificar
+4) informar el estado del proyecto
+
+WBS - CONSTRUCCIÓN
+Su confección es responsabilidad del LP. Debe definirse de tal manera que el LP pueda administrar el proyecto. Manera de que funcione: stickers, resaltadores, pizarrón, paredes.
+Formas de construirlo:
+1) Top-Down
+a) equipo completo
+b) sub-equipos
+2) Bottom-up
+
+WBS - CÓMO DETERMINAR COMPLETITUD
+Cada actividad debe poseer 6 características para considerarse completa:
+1) Estado medible
+2) Acotada
+3) Producir un entregable
+4) Tiempo y costo estimable
+5) Duración aceptable
+6) Independiente
+
+WBS - ENFOQUES PARA DEFINICIÓN DE ACTIVIDADES
+No hay reglas. Se pueden estipular criterios para nombrar las tareas:
+1) Enfoque por sustantivos
+2) Enfoque por verbos
+3) Enfoque organizacional
+
+---------------------------------------------------------------------
+
+DURACIÓN
+Duración es el tiempo transcurrido en días laborables para finalizar el proyecto - sin considerar feriados, fines de semana, días no laborables.
+Esfuerzo de Trabajo es la labor requerida para completar una actividad. La labor se puede realizar en horas consecutivas o no.
+La duración de una actividad es influenciada por la cantidad de recursos planificados para trabajar en ella. Se dice influenciada , ya que no es una relación lineal directa.
+Crash de la Actividad: agregar más recursos para mantener la duración de una actividad dentro de los límites planificados.
+Crashpoint de la Actividad: es el punto en el cual agregar más recursos aumenta la duración de la actividad.
+
+VARIACIONES EN LA DURACIÓN
+1) variación en los perfiles
+2) eventos inesperados
+3) eficiencia del tiempo de trabajo
+4) errores e interpretaciones erróneas
+
+DURACIÓN – MÉTODOS DE ESTIMACIÓN
+Existen distintas técnicas para estimar esfuerzo:
+1) similitud con otras actividades
+2) datos históricos
+3) juicio experto
+4) técnica Delphi
+5) técnica de 3 puntos
+6) técnica Delphi de banda ancha
+ESTIMACIÓN – OTROS MÉTODOS
+	1) analogía con proyecto previo
+	2) estimar tamaño:
+	a) longitud (LOC)
+	b) funcionalidad (Puntos de Función de Albrecht).
+	3) modelos algorítmicos: a*(KLOC) b *FactorAjuste [CoCoMo]
+	4) juicio experto
+	5) estimación top-down o bottom-up
+
+---------------------------------------------------------------------
+
+ESTIMACIÓN DE COSTOS
+predicciones de cuanto tiempo, esfuerzo y perfiles de RRHH son requeridos para construir un sistema de software.
+Muchas veces se intercambia estimación de esfuerzo con estimación de costos.
+Problemas de Estimación:
+1) Problemas Políticos: cuando las estimaciones se convierten en objetivos, cuando se ajusta el precio por conveniencia
+2) Problemas Técnicos: No existen datos históricos para estimar
+
+TÉCNICAS DE ESTIMACIÓN
+- LLUVIA DE IDEAS
+- Opinión Experta
+- Analogía
+- Descomposición
+- Modelos. Estas técnicas se pueden aplicar con los siguientes enfoques:
+	1) Bottom-Up
+	2) Top-Down
+
+La Estimación de Costos tiene dos usos:
+1) en planificación: se necesita saber cuantos recursos va a insumir
+2) en control: se necesita saber cuanto se hizo y cuanto falta
+Se necesitan m é todos predictivos para estimar la complejidad del software antes de que sea desarrollado.
+
+CÁLCULO DEL ESFUERZO
+El esfuerzo se calcula mediante la fórmula: PM inicial = c*KLOC**k Se puede corregir mediante C onductores de Costos .
+
+Los pasos generales son:
+1) estimar el tamaño del software y usar la fórmula del modelo para estimar esfuerzo inicial
+2) revisar la estimación usando conductores de costos u otro factor dado por el modelo
+3) aplicar las herramientas del modelo a la estimación del paso 2 para determinar el total del esfuerzo.
+
+COCOMO: Constructive Cost Model.
+Es una colección de tres modelos:
+1) Básico: aplicable cuando se conoce muy poco del proyecto
+2) Intermedio: aplicable luego de la especificación de requerimientos
+3) Avanzado: aplicable cuando se termina el diseño
+
+CLASIFICACIÓN DE SISTEMAS
+1) orgánicos
+2) embebido
+3) semi-embebido
+
+FACTORES DE AJUSTE
+Se denominan también Atributos de Costos o CONDUCTORES DE COSTOS. Tratan de capturar el impacto del entorno del proyecto en el costo de desarrollo. Se agrupan en cuatro categorías:
+1) atributos del producto: RELY, DATA, CPLX
+2) atributos del hardware: TIME, STOR, VIRT, TURN
+3) atributos del personal: ACAP, AEXP, PCAP, VEXP, LEXP 
+4) atributos del proyecto: MODP, TOOL, SCED
+
+COCOMO – FASES DE DESARROLLO
+Permite estimar los tiempos para cada una de las fases de desarrollo. Considera cuatro fases:
+1) requerimientos/planes
+2) diseño del producto
+3) programación
+4) prueba/integración
+
+COCOMO 2.0
+Es una actualización de COCOMO para que se adapte a las nuevas tecnologías, enfoques de OO, etc. La estimación del proceso en COCOMO 2.0 está basado en tres etapas principales de cualquier desarrollo
+Etapa	Basado en...				Utiliza
+1		Prototipos					Puntos objeto
+2		Decisiones de arquitectura	Puntos función
+3		Diseño detallado			KDSI
+
+Sus objetivos son:
+1) desarrollar modelos de costos y de estimación acordes a las prácticas actuales
+2) desarrollar bases de datos de costos y herramientas que soporten una mejora continua del modelo
+3) proveer un framework analítico cuantitativo, y un conjunto de herramientas y técnicas para evaluar los efectos de las mejoras en los costos de ciclos de vida y en las planificaciones
+
+COCOMO II está compuesto por tres modelos:
+1) Modelo de la Aplicación: basado en Puntos Objeto
+2) Modelo de Diseño Temprano: usado para obtener estimaciones de costo y duración antes de finalizar el diseño de la arquitectura
+3) Modelo Post-Arquitectura: el modelo más detallado, con nuevos conductores de costos, y nuevas ecuaciones
+
+COCOMO provee un modelo para estimar costos en base a:
+1) KLOC
+2) Puntos Objeto (PO)
+3) Puntos Función (PF)
+
+COCOMO EN BASE A PO
+1) estimar el número de pantallas, reportes y componentes 3GL
+2) clasificar la complejidad de esos objetos en: i) simple, ii) media, iii) alta
+3) pesar los objetos de acuerdo a su complejidad
+4) determinar los Puntos Objetos – sumar todos los pesos de las instancias y obtener el número de Puntos Objeto
+5) estimar el porcentaje de reuso que se espera y calcular los Nuevos Puntos Objeto
+(NPO) = PO (100 - %reuso) /100
+6) determinar el ratio de productividad, en base a:
+PROD = NPO / personas-mes VER TABLA PAG 59
+7) estimar personas-mes, PM = NPO/PROD
+
+COCOMO EN BASE A PF
+1) calcular los puntos función, en base a requerimientos y documentos de diseño. Para calcularlos, contar: inputs externos (IE), outputs externos (OE), consultas externas (CE), archivos internos (AI), y archivos de interface externos (AE)
+2) clasificar cada punto función de acuerdo a su complejidad 
+3) aplicar pesos de complejidad
+4) calcular los puntos de función no ajustados (PFNA), sumando los puntos de función por complejidad.
+5) convertir puntos de función a líneas de código
+
+En COCOMO II el esfuerzo es expresado en Personas Mes (PM).
+A: intenta cuantificar los efectos multiplicativos en el esfuerzo de proyectos de tamaño creciente
+B: intenta medir la economía (o no economía) de escala encontrada en proyectos de diferentes tamaños.
+Tamaño = medido en Puntos Objeto, Puntos Funcion, LOC
+
+B - ECONOMÍA DE ESCALA
+B es una agregación de 5 factores de escala que consideran la economía o no de escala en los proyectos de diferentes tamaños. Cada factor de escala tiene un rango de niveles Muy-Bajo a Extra-Alto. Cada ratio tiene un peso. El valor específico del peso es llamado factor de escala (SF). Los factores de escala del proyecto son sumados para determinar el exponente B, de acuerdo con la f ó rmula:
+B = 1.01 + 0.01 ∑ W i
+donde B 0.91(para COCOMO II.2000)
+
+---------------------------------------------------------------------
+
+ADMINISTRACIÓN DE PROYECTOS
+
+EXPECTATIVAS EN EL SECTOR PÚBLICO
+PROGRAMAS Y PROYECTOS DE GOBIERNO DIGTIAL
+NECESIDAD
+PROGRAMAS Y PROYECTOS
+MOTIVACIÓN 
+- NECESIDAD DE TRANSFORMACIÓN
+- COORDINACIÓN DE TRABAJO
+- PRESUPUESTO Y CONTROL
+- NECESIDAD DE ENFOCARSE
+- NECESIDAD DE SER ESTRATÉGICOS
+- INTERDEPENDENCIA
+
+FACTORES QUE AFECTAN EL ÉXITO
+FACTORES GENERALES EN EL SECTOR PUBLICO:
+- Participación de muchos grupos diferentes de personas
+- Dificultad para definir y medir el éxito
+- Complejidad de la integración de nuevos proyectos con los acuerdos existentes
+- Limitaciones en los plazos, la financiación y las prestaciones
+- Uso de nuevas tecnologías
+
+DESAFÍOS
+DESAFÍOS GERENCIALES
+- Definición inadecuada de un programa
+- Identificación e integración de los proyectos dentro del programa
+- Falta de capacidad para controlar adecuadamente la ejecución de programas y proyectos
+DESAFÍOS TÉCNICOS [llevando a la reelaboración, retraso y fracaso de programas/proyectos]
+- Necesidades del programa y del proyecto poco claras
+- Organización y estructuras deficientes
+- Falta de participación de los stakeholders en una etapa temprana de la definición de los requisitos y el alcance del programa/proyecto
+
+FALLAS - CAUSAS DE FALLO DE PROGRAMA [Office of Government Commerce (OGC), UK]
+- Una visión mal definida o mal comunicada
+- Soporte a nivel directivo insuficiente
+- El liderazgo es débil
+- Expectativas poco realistas de la capacidad organizacional
+- Insuficiente enfoque en los beneficios
+- La organización falla en cambiar su cultura
+- Participación insuficiente de los stakeholders
+- No hay una imagen verdadera de la futura prestación
+- Se utiliza un conjunto de herramientas incorrecto, por ejemplo se utiliza la gestión de proyectos para administrar un programa o viceversa
+
+CONFIANZA - CAUSAS DE CONFIANZA DE PROGRAMA [Office of Government Commerce, UK]
+- Fuerte liderazgo del programa
+- Alcance, objetivos y beneficios claramente definidos
+- Alineación estratégica
+- Habilidades y experiencia del equipo de gestión del programa
+- El Grupo Patrocinador y el Comité de Programa “viviendo los valores” del cambio de negocio requerido
+- Ir más allá de asegurar “tiempo, costo y calidad” para enfocarse en garantizar los riesgos y beneficios
+- Compromiso de los stakeholders
+- Gobernanza y controles robustos
+- Roles y responsabilidades claros
+
+FACTORES DE ÉXITO
+PARA PROGRAMAS Y PROYECTOS:
+- Los programas y proyectos necesitan estar bien planificados, bien integrados y bien gestionados de manera coordinada desde la fase inicial hasta la implementación.
+- Particularmente, la organización inicial, la planificación y la aprobación de los programas y proyectos gubernamentales influyen fuertemente en su finalización exitosa.
+- Utilización del conocimiento en los procesos de toma de decisiones acumulados durante la implementación de programas y proyectos similares en el pasado o en otras agencias
+PARA ORGANIZACIONES
+- Los objetivos de los programas y proyectos están alineados con las metas de la entidad
+- Existen buenos acuerdos de gobernanza
+- Son asignadas las personas correctas para supervisar y aprobar programas y proyectos
+- Las partes interesadas están debidamente identificadas y comprometidas
+- Se cumple con los requisitos legislativos y gubernamentales
+
+---------------------------------------------------------------------
+
+GESTION DE LOS BENEFICIOS
+El objetivo final de los proyectos y programas es obtener beneficios para sus clientes y para las partes interesadas
+El principal objetivo es asegurar que los beneficios sean identificado, estén definidos clarament, estén vinculados a los resultados estratégico, sean específicos, medibles, realizables, realistas, y limitados en el tiempo
+Ayuda a asegurar que las partes interesadas están comprometidas con los beneficios identificados y su realización, están fomentando la propiedad, sean responsables de añadir valor a través del proceso de realización
+
+PROCESO DE GESTIÓN DE LOS BENEFICIOS
+Los procesos de gestión de beneficios incluyen:
+1. Identificación
+2. Cuantificación
+3. Realización
+4. Revisión
+
+Enfoque
+1. Desarrollo de una ESTRATEGIA DE GESTIÓN DE BENEFICIOS
+Define cómo el programa se encargará de la gestión de los beneficios
+2. Identificación y cuantificación de beneficios - PERFILES DE BENEFICIOS
+Se trata de identificar y cuantificar los beneficios
+Los perfiles de beneficios proporcionan detalles de cada beneficio identificado
+3. Planificación para la realización de beneficios - PLAN DE REALIZACIÓN DE BENEFICIOS
+4. REALIZACIÓN DE BENEFICIOS
+Entrega de los beneficios incrementales
+5. REVISIÓN DE LOS BENEFICIOS
+Regularmente valida el valor de los beneficios esperados y realizados a los ojos de los stakeholders
+
+---------------------------------------------------------------------
+
+GESTIÓN DE LOS STAKEHOLDER
+Gestión de los Stakeholders es el proceso de identificar y comunicarse efectivamente con aquellas personas o grupos que tienen interés en los resultados de los programas/proyectos. También gestiona las relaciones con las partes interesadas como una forma de lograr influencia y resultados positivos de los programas y proyectos.
+[Los stakeholders son individuos, organizaciones u otras entidades con interés, influencia y afectados por un programa]
+
+CARACTERÍSTICAS IMPORTANTES
+- Los stakeholders a distintos niveles deberán analizarse y comprometerse
+- incluye la planificación de las comunicaciones, el uso e identificación efectivo de los diferentes canales de comunicación y las técnicas que permiten alcanzar los objetivos del programa
+- La comunicación con los stakeholders debe ser clara, consistente, enfocada en lo esencial y en un lenguaje comprensible para todos
+- Debe ser visto como un proceso continuo en todas las iniciativas del programa y vinculado al ciclo de vida de la iniciativa y los controles de la institución
+
+OBJETIVOS
+- identificar stakeholders
+- definir claramente los intereses e influencias de los stakeholder
+- asegurar que los stakeholders se comprometan de acuerdo a sus intereses e influencias en el programa
+- asegurar que los stakeholders se comprometan, se apropien y apoyen el programa
+
+FACTORES DE ÉXITO CRÍTICOS – PARA ASEGURAR:
+- participación
+- compromiso
+- posesión
+- apoyo
+
+DESAFÍOS
+- COMPLEJIDAD
+- RESPONSABILIDAD
+- TRANSPARENCIA 
+- ALTAS EXIGENCIAS
+
+BENEFICIOS
+- SATISFACCIÓN DEL CLIENTE
+- ENTENDIMIENTO
+- REDUCCIÓN DE RIEGOS DE CONFLICTO
+- AUTORIDAD 
+- APOYO
+
+PROCESOS Y ENFOQUE
+1. IDENTIFICACIÓN DE LOS STAKEHOLDERS
+En el sector público, los stakeholders son internos y externos al organismo gubernamental
+Categorías de stakeholders comunes en los programas/proyectos del sector público
+2. ANÁLISIS DE LOS STAKEHOLDER
+El análisis de los stakeholders comprende entender y analizar su influencia e impacto en el proyecto
+3. PLANIFICACIÓN DE LOS STAKEHOLDER
+Consiste en definir un marco que permita la participación efectiva de los stakeholders
+4. COMUNICACIÓN DE LOS STAKEHOLDER
+La comunicación es un factor crítico de éxito para cualquier proceso de transformación
+OBJETIVOS
+- Concientizar a los stakeholders sobre los beneficios y el impacto
+- Obtener el compromiso del personal de las organizaciones con los cambios a ser introducidos
+- Mantener a todo el personal de las organizaciones informado sobre los progresos realizados antes, durante y después de la ejecución y entrega de resultados
+- Promover mensajes claves del programa
+- Hacer que las comunicaciones sean verdaderamente de doble vía, alentando activamente a los stakeholders a proporcionar un feedback y asegurarse de que estén informados acerca del uso del mismo
+CREANDO UN PLAN DE COMUNICACIÓN
+Planificación para la comunicación y el compromiso de los stakeholders
+Se utiliza para planificar y monitorear las actividades de comunicación durante la ejecución del programa
+Describe Qué se comunicará y la autoridad requerida para la comunicación, Cómo se comunicará, Quién comunicará, y Cuándo se comunicará
+CANALES DE COMUNICACIÓN
+Deberían establecerse canales de comunicación para asegurar que las expectativas de los stakeholders sobre el programa puedan ser gestionadas y mantenidas
+5. GESTIÓN DE LOS STAKEHOLDER
+Es necesario para mantener el impulso y el programa en marcha
+
+---------------------------------------------------------------------
+
+GOBERNANZA DE PROGRAMAS
+OBJETIVOS
+- Provee mecanismos de gobernanza para monitorear el progreso y la entrega de beneficios coordinados
+- Proporciona una estructura organizativa, políticas y procedimientos adecuados para apoyar la ejecución del programa
+GOBERNANZA Y CICLO DE VIDA DE PROGRAMAS
+La gobernanza abarca todas las fases del ciclo de vida del programa. Las revisiones de fases y puertas ayudan a garantizar la alineación estratégica, la evaluación de inversiones, el monitoreo y control de oportunidades y amenazas, la evaluación de beneficios y el monitoreo de los resultados del programa
+
+PROCESOS
+La gobernanza de programas incluye 7 procesos:
+
+1. Establecer la ORGANIZACIÓN DE PROGRAMAS
+Dependerá del tamaño del equipo. Las buenas prácticas identificaron los siguientes roles PATROCINADOR DEL PROGRAMA, ADMINISTRADOR DEL PROGRAMA, ADMINISTRADOR DE CAMBIOS, ADMINISTRADOR DE RIESGOS, ANALISTA DE NEGOCIOS y GERENTE DEL PROGRAMA
+
+2. Configurar los procesos y herramientas de GESTIÓN DE RIESGOS
+Monitorea y controla varios factores de riesgos en un programa
+DEFINICIÓN [Riesgo] Una amenaza negativa (o posible oportunidad positiva) que podría afectar el curso del programa
+ACTIVIDADES DE LA GESTIÓN DE RIESGOS:
+	1) Identificar riesgos
+	2) Establecer un registro de riesgos
+	3) Asignación de la propiedad del riesgo
+	4) Evaluación de los riesgos
+	5) Planificación de la mitigación
+	6) Implementación de las acciones de mitigación
+	7) Evaluación de la efectividad
+	8) Incorporación de la gestión de riesgos
+	9) Establecer una estrategia de gestión de riesgos
+
+ESTRATEGIA DE GESTIÓN DE RIESGOS
+Define el marco del programa para la gestión de riesgos. Establece el contexto en el cual los riesgos serán identificados, analizados, controlados, monitoreados y revisados.
+IDENTIFICACIÓN DE RIESGOS
+TIPOS DE RIESGO
+- Riesgos a nivel estratégico
+- Riesgos a nivel de programa
+- Riesgos a nivel de proyecto
+- Riesgos a nivel operativo
+
+REGISTRO DE RIESGOS
+Los riesgos deben ser documentados en el registro de riesgos del programa. Es el repositorio central de información sobre los riesgos. Proporciona las bases para la priorización, acción, control y presentación de informes. Contiene un gran volumen de información. Es útil para presentar un panorama general del perfil de riesgo del programa que muestra cuántos riesgos caen en el área de alta probabilidad y alto impacto
+POSESIÓN DE RIESGOS
+Cada riesgo identificado debe asignarse a un individuo que está mejor colocado (con antigüedad, autoridad y responsabilidad relevantes) para supervisar y gestionar cualquier acción de mitigación o de contingencia apropiada.
+EVALUACIÓN DE RIESGOS
+La evaluación de cada riesgo implica evaluar la probabilidad de que se produzca y el posible impacto si se produce.
+Puede ser útil establecer niveles de tolerancia para tantos riesgos como sea posible para ayudar con la priorización de las acciones de gestión.
+
+RESPUESTAS AL RIESGO
+EL ENFOQUE DE LAS 4 “T”
+1 - TRANSFERIR
+2 - TERMINAR
+3 - TOLERAR
+4 - TRATAR
+
+GESTIÓN DE RIESGOS - TIPS
+
+FACTORES DE ÉXITO CRÍTICOS PARA UNA GESTIÓN DE RIESGOS EFICIENTE
+- Individuos nominados con responsabilidades claramente definidas para apoyar, poseer y liderar la gestión de riesgos.
+- Un enfoque pragmático de la gestión del riesgo, y los beneficios de su seguimiento, comunicados claramente a todo el personal involucrado con el programa.
+- Una cultura organizacional que apoya la toma de riesgos bien pensada
+- Gestión del riesgo plenamente integrada en los procesos de gestión y aplicada consistentemente.
+- Gestión del riesgo estrechamente vinculada al logro de los objetivos del programa y la entrega de beneficios.
+- Riesgos monitoreados activamente y revisados periódicamente de manera constructiva, sin culpa.
+
+3? Establecer los procesos y herramientas de PROCESO DE RESOLUCIÓN DE PROBLEMAS
+Los problemas del programa deben ser identificados, gestionados y resueltos a lo largo del proyecto.
+La gestión de problemas aborda los problemas que pueden obstaculizar el éxito del programa o bloquear al equipo para lograr su objetivo.
+
+RESOLUCIÓN DE PROBLEMAS – BUENAS PRÁCTICAS
+ALGUNAS BUENAS PRÁCTICAS
+PROCESO DE ESCALACIÓN Se debe definir y documentar un proceso de escalación de problemas
+DOCUMENTACIÓN Todos los problemas, independientemente de su apariencia menor, deben documentarse a través de un registro de problemas.
+DECLARACIÓN DE RESOLUCIÓN Los problemas deben ser claramente establecidos, por lo que está claro cómo se pueden resolver
+PRIORIZACIÓN Los temas deben ser priorizados y asignados a propietarios específicos con los siguientes pasos y las fechas de vencimiento documentadas
+REVISIÓN REGULAR La revisión regular de los problemas y el registro de problemas son prácticas altamente recomendadas.
+HISTORIA DEL PROBLEMA Las cuestiones cerradas deben permanecer en el registro de problemas.
+
+RIESGO
+Un evento o condición incierto que, si ocurre, tiene un impacto positivo o negativo en los objetivos del proyecto.
+PROBLEMA
+Asunto en cuestión o en disputa, o que no está resuelto y está en discusión o sobre el cual hay puntos de vista opuestos o desacuerdos. Un problema de proyecto puede ser identificado primero como un riesgo y, a través del proceso de planificación de la gestión de riesgos, puede que ya tenga un enfoque planeado para manejar el problema.
+
+4. GESTIÓN DE CAMBIOS (Gestionar cambios en el programa)
+Realizar cambios en el programa es crítico para resolver problemas. El registro de problemas se utiliza normalmente como el registro central de todos los cambios en el programa
+CONTROL DE CAMBIOS
+El control de cambios es el proceso de administración y control de cambios en cualquier aspecto del programa
+LOS PROCEDIMIENTOS PARA EL CONTROL DE CAMBIO DEBEN CONSIDERAR ...
+
+5. GESTIÓN DE RECURSOS (Gestionar recursos requeridos por el programa)
+La gestión de los recursos requeridos por el programa es una actividad clave.
+TIPOS DE RECURSOS
+ESTRATEGIA DE GESTIÓN DE RECURSOS
+Se utiliza para identificar los recursos necesarios y definir cómo se van a adquirir y gestionar
+ENTRADAS
+
+6. PLANIFICACIÓN Y PROGRAMACIÓN DEL PROGRAMA
+Es un documento integral que programa los proyectos, sus costos, recursos, riesgos y actividades de transición junto con actividades de monitoreo y control.
+COMPONENTES
+- La cartera de proyectos, los cronogramas de los proyectos y los costos.
+- Detalla las interdependencias entre ellos
+- Resume los riesgos identificados para el programa incluyendo cualquier suposición para la entrega exitosa del programa.
+- Detalla el programa y el plan de transición que muestran cuándo se entregarán los resultados de los proyectos y qué actividades de transición se requerirán para integrarlos en las operaciones.
+- Actividades de seguimiento y evaluación, requisitos de información, metas de rendimiento y responsabilidades.
+
+7. MONITOREAR Y EVALUAR (el progreso del programa y la entrega de resultados y beneficios)
+Identificación y medición proactiva de los elementos clave de la cartera de proyectos que afectan significativamente al proyecto y las actividades.
+ATRIBUTOS A EVALUAR 
+- Eficiencia
+- Eficacia
+- Calidad
+- Puntualidad
+- Productividad
+- Seguridad

@@ -1,0 +1,3 @@
+# Ingenieria de software 3 - UNLP #
+
+Agradecimiento a https://github.com/kity-linuxero/ing_so_3_unlp, de donde saque algunas cosas, y mire un poco sus practicas para estudiar...

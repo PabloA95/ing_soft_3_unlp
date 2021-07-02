@@ -1,0 +1,389 @@
+Que es Calidad
++ “El grado en el que un conjunto de características inherentes cumple con los requisitos “ (ISO 9000)
+- “Conjunto de propiedades o características de un producto o servicio que le confieren aptitud para satisfacer unas necesidades expresadas o implícitas” (ISO 8402)
+
+
+Definir calidad de producto de Software y que normas ISO la mide
++ El término calidad de software se refiere al grado de desempeño de las principales características con las que debe cumplir un sistema computacional durante su ciclo de vida, dichas características de cierta manera garantizan que el cliente cuente con un sistema confiable, lo cual aumenta su satisfacción frente a la funcionalidad y eficiencia del sistema construido.
+
+- El concepto de calidad de software, según Pressman (2010) se asocia a la "concordancia con los requisitos funcionales y de rendimiento explícitamente establecidos con los estándares de desarrollo plenamente documentados y con las características implícitas que se espera de todo software desarrollado profesionalmente"
+
+ISO/IEC 9126(modelo de calidad)
+ISO/IEC 14598(modelo de evaluacion)
+ISO/IEC 25000(SQuaRe)
+
+
+Definir calidad de proceso de software y que normas ISO las mide
+
+?????????????????
+
+ISO/IEC 12207 establece un modelo de procesos para el ciclo de vida del software
+ISO/IEC 15504 norma para establecer y mejorar la capacidad y madurez de los procesos de las organizaciones en la adquisición, desarrollo, evolución y soporte de productos y servicios
+ISO/IEC 33000 remplaza 15504
+ISO 90003 son directrices para la interpretación de la ISO 9001 en el proceso de software
+
+
+Definir calidad de los datos y que normas ISO las mide
+La capacidad de las características de los datos de satisfacer necesidades explícitas e implícitas bajo determinadas condiciones de uso.
+ISO/IEC 25012 - Data Quality model
+
+
+Definir Sistema de Gestión de la calidad SGC
+El sistema de gestión de la calidad es la gestión de servicios que se ofrecen, y que incluye planear, controlar, y mejorar, aquellos elementos de una organización, que de alguna manera afectan o influyen en la satisfacción del cliente y en el logro de los resultados deseados por la organización
+ISO/IEC 9001
+
+
+Que es Auditoría y cuales son sus objetivos, que se necesita para alcanzar los objetivos
+La auditoría de sistemas de información es el proceso de recolectar y evaluar evidencia para determinar si:
+1)el sistema automático preserva los activos,
+2)mantiene la integridad de los datos,
+3)permite que los objetivos organizacionales se alcancen con eficacia,
+4)usa los recursos con eficiencia.
+Muchas veces la auditoría tiene otro propósito: asegurar que la organización cumple con determinadas regulaciones, reglas y condiciones, ya sea voluntaria o involuntariamente.
+
+Los objetivos de la auditoría sólo se pueden lograr si la alta gerencia implementa un sistema de control interno.
+
+
+Fundamentos de la auditoría
+La auditoría de sistemas de información se fundamenta en:
+1)auditoría tradicional
+2)administración de sistemas de información
+3)ciencias del comportamiento
+4)ciencias de la computación
+
+
+Que es un control, tipos de control,
+Un control es un sistema que previene, detecta, o corrige eventos ilegales.
+Control Preventivo: instrucciones de cómo completar un formulario. Nota: las instrucciones no son el control.
+Control Detectivo: un programa que valida datos de input, rechazando los erróneos.
+Control Correctivo: un programa que detecta el ruido en comunicaciones y permite corregir datos corruptos.
+
+OBJETIVO DE LA AUDITORÍA
+Reducir las pérdidas esperadas por eventos ilegales mediante:
+1)controles preventivos: reducen la probabilidad que estos eventos ocurran.
+2)controles detectivos y correctivos: reducen la cantidad de pérdidas cuando los eventos ilegales ocurren.
+La tarea del auditor es determinar si los controles están ubicados y funcionan para prevenir los eventos ilegales.
+
+
+Factorización de un sistema en la auditoría
+Para administrar la complejidad. El primer paso para comprender un sistema complejo es particionarloen subsistemas.
+Para poder factorizar, se necesitaun criterio. Los auditores deben identificar primero, las principales funciones que el sistema realiza para cumplir sus objetivos.El proceso de factorización termina cuando se ha particionado el sistema en partes lo suficientemente pequeñas, de tal modo que puedan ser entendidas y evaluadas.
+
+FORMAS DE FACTORIZACIÓN
+1)funciones gerenciales-las funciones que se deben realizar para asegurar que el desarrollo, la implementación, operación y mantenimiento de los sistemas de información proceden de una forma planificada y controlada.
+2)funciones de aplicación-tareas que son necesarias ejecutar para realizar un procesamiento de información confiable. Relacionado con “ciclos”.
+
+
+Determinar confiabilidad de un subsistemas en la auditoría
+Primero-determinar el menor nivel de los subsistemas.
+Segundo-evaluar la confiabilidad de los controles en cada subsistema.
+Para evaluar la confiabilidad de los controles:
+1)se deben identificar todos los posibles tipos de eventos que pueden ocurrir en el subsistema.
+2)se deben considerar todos los eventos válidos o ilegales.
+Para identificar los eventos, hay que considerar las principales funcionesque realiza el subsistema.
+La evaluación de la confiabilidad procede de abajo hacia arriba en el nivel de estructura de los sistemas. Los subsistemas de menor nivel son componentes de los de mayor nivel.
+Cuando se haya evaluado la confiabilidad de los subsistemas de menor nivel, se puede analizar:
+1)el impacto
+2)la naturaleza, y
+3)la frecuencia 
+de los eventos ilegales en los sistemas de mayor nivel.
+
+En cualquier nivel de la estructura, los pasos de evaluación son:
+1)identificar las transacciones que ingresan al sistema
+2)considerar los eventos legales e ilegales que puedan ocurrir
+3)asegurar la confiabilidad de los controles que detectan los eventos ilegales
+
+
+Razónes de necesidad de nuevos controles en sistemas de alto nivel
+DETECTAR NUEVOS CONTROLES
+A medida que se evalúan los sistemas de más alto nivel, se pueden encontrar nuevos controles debido a:
+1)Los controles en sistemas de bajo nivel pueden funcionar mal. Ejemplo: se divide el trabajo en varias personas y un superior controla el funcionamiento general.
+2)Podría ser más efectivo en costos implementar controles a alto nivel. Ejemplo: en lugar de que cada uno controle su trabajo, un superior aleatoriamente supervisa el trabajo por muestreo.
+3)Algunos eventos no se manifiestan como ilegales excepto en los niveles altos. Ejemplo: consultas a una base de datos sin violar confidencialidad.
+
+
+Riesgo de auditoría, Riesgo deseado de auditoría, tipos de riesgos
+Elriesgo de auditoríaes el riesgo de que un auditor fracase  al detectar las pérdidas materiales reales, o potenciales, o los registros incorrectos.
+
+TIPO DE RIESGOS
+1)Riesgo Deseado:el riesgo que se desea correr.
+2)Riesgo Inherente:refleja la probabilidad que una pérdida material o una imputación errónea exista en algún segmento de la auditoría, antes de que sea considerada la confiabilidad de los controles internos.
+3)Riesgode Control:reflejala probabilidad que enalgúnsegmentode la auditoría, loscontrolesinternosno prevengan, detecteno corrijan pérdidas materiales o imputaciones erróneas que puedan surgir.
+4)Riesgode Detección:reflejala probabilidad que los procedimientos de auditoría utilizados en algún segmento, fallen en detectar pérdidas material eso imputaciones erróneas. 
+
+
+Distintos procedimientos de auditoría
+Existen diferentes procedimientos de auditoría, dependiendo de lo que se deseecontrolar:
+a) determinar si ocurrieron pérdidas materiales o la información financiera es errónea
+b) determinar la eficiencia y eficacia de las operaciones
+	1) procedimientos para comprender los controles
+	2) testeo de controles
+	3) testeos sustantivos de detalle de transacciones.
+	4) testeos substantivos de detalle de balances contables (a) / testeos sustantivos de resultados generales (b)
+	5) procedimientos de revisión analítica.
+
+
+Actitud del auditor
+Durante esta etapa los auditores externos e internos pueden tener distintas actitudes.
+Situación: se detecta que los controles son débiles
+1)auditor interno: puede expandir sus investigaciones para lograr una mejor comprensión a cerca de la naturaleza e implicancias de estas debilidades.
+2)auditor externo: puede cortar sus investigaciones (sobre causas) y realizar testeos más amplios. 
+
+
+Opinion del auditor
+Los estándares en varios países requieren que la opinión sea:
+1)opinión excusada: en base al trabajo realizado no se puede emitir opinión.
+2)opinión adversa: se concluye que han ocurrido pérdidas materiales o que los estados financieros están distorsionados.
+3)opinión con calificación: se concluye que han ocurrido pérdidas materiales o existen registros incorrectos, pero las cantidades no son considerables.
+4)opinión sin calificación: el auditor considera que no han ocurrido pérdidas materiales o no existen registros incorrectos.
+
+
+Que es gobernanza de TI y Administración de TI
+La Gobernanza de TI es un subconjunto de Gobierno Corporativo de las organizaciones que se centra en los sistemas de TI, su desempeño y los riesgos asociados.
+"son estructuras y procesos de liderazgo y organizativos que aseguran que las TI de la organización sostienen y extienden las estrategias y los objetivos de la organización"
+GOBERNANZA DE TI
+trata con la relación entre el enfoque empresarial y la gestión de TI 
+destaca la importancia de las cuestionesde TI
+promueve que las decisions estratégicas de TI deben ser tomadas por una junta directiva corporativa
+METAS
+asegurar que las inversiones en TI generen valor 
+mitigar riesgos asociados con TI
+
+ADMINISTRACIÓN DE TI
+se trata de tomar e implementar decisiones de TI.
+
+
+Que es Cobit, principios de Cobit
+COBIT (OBJETIVOS DE CONTROL PARA INFORMACIÓN Y TECNOLOGÍA RELACIONADA)
+Es un conjunto de recursos que contienen toda la información que las organizaciones necesitan para adopter un marco de gobernanza y control de TI.
+PRINCIPIOS
+1) Satisfacer las necesidades de las partes interesadas
+2) Cubrir la empresa de extremo a extremo
+3) Aplicar un marco integrado
+4) Habilitar un enfoque holístico
+5) Separar las funciones principales
+
+
+Procesos de cobit
+COBIT 5.0 divide los procesos en 2 dominios:
+1)GOBERNANZA –incluye 5 procesos, dentro de cada uno de ellos se definen prácticas de Evaluar, Dirigir y Monitorear.
+EDM se interesa en: 
+establecer un marco de gobernanza
+crear valor para las partes interesadas
+asegura que los objetivos de la empresa sean alcanzados 
+
+EVALUANDO las necesidades, condiciones y opciones de las partes interesadas, 
+estableciendo DIRECCIÓN mediante la priorización y la toma de decisiones, 
+y MONITOREANDO el desempeño, el cumplimiento y el progreso contra la dirección y los objetivos acordados (EDM).
+
+
+2)ADMINISTRACIÓN –incluye 32 procesos clasificados en 4 dominios – APO, BAI, DSS y MEA.
+Alinear, Planear y Organizar (APO)proporciona direccionesa la entrega de soluciones y servicios
+Construir, Adquirir e Implementar (BAI)provee soluciones a DSS para la entregade servicios
+Entrega, Servicioy Soporte (DSS)recibe soluciones y las hace utilizables para los usuarios finales
+Monitorear y Evaluar (MEA)monitorea todos los procesos para asegurar que sesiga la dirección provista
+
+Definición de Proyecto y sus características
+Un proyecto es una secuencia de actividades única, complejas y conectadas que tienen un objetivo o propósito y que deben ser completadas en un tiempo específico, dentro del presupuesto y de acuerdo a las especificaciones
+Los proyectos tienen un alcance limitado con productos concretos.
+El éxito se mide por el presupuesto, el tiempode entrega y los productosque cumplen las especificaciones.
+Durante la ejecución de un proyecto, se trata de mantener los cambios al mínimo.
+El proyecto es dirigido y coordinado por una persona responsable-líder o gerente de proyecto; quien administra el tiempo, los recursos y el presupuesto.
+
+Los proyectos tienen un alcance limitado con productos concretos
+El director del proyecto trata de mantener el cambio al mínimo
+El éxito se mide por el presupuesto, el tiempo de entrega y los productos que cumplen las especificaciones
+El estilo de liderazgo se centra en la entrega de las tareas y orientado hacia el cumplimiento de los criterios de éxito
+Los gerentes de proyectos manejan técnicos, especialistas, etc.
+Los gerentes de proyecto son jugadores de equipo que motivan al personal usando sus conocimientos y habilidades
+Los gerentes de proyecto realizan una planificación detallada para administrar la entrega de productos y servicios
+
+
+Definición de Programa y sus características
+Es un grupo de proyectos relacionados que se gestionan de manera coordinada para obtener beneficios.
+Se ocupa de los resultados
+Proporciona un paraguas bajo el cual estos proyectos pueden ser coordinados.
+Integra los proyectos de modo que pueda producir un resultado mayor que la suma de sus partes.
+
+Los programas tienen un amplio alcance que puede cambiar para satisfacer las expectativas de beneficios
+Los directores de programas deben esperar cambios e incluso aceptarlos
+El éxito se mide en términos de retorno de la inversión (ROI), nuevas capacidades y prestaciones para la organización
+Los directores de programas deben facilitar y gestionar los aspectos políticos de la gestión de las partes interesadas
+Los directores de programas gestionan los líderes de proyectos
+El estilo de liderazgo se centra en la gestión de las relaciones y la resolución de conflictos
+Los directores de programas son líderes que proporcionan visión y liderazgo
+Los directores de programas crean planes de alto nivel que proporcionan orientación a los proyectos
+Restricciones del proyecto y triángulo de alcance
+
+Un programa vincula proyectos de varias maneras:
+Interdependencias de tareas entre proyectos
+Limitaciones de recursos a través de múltiples proyectos
+Actividades de mitigación del riesgo
+Escalamiento de problemas, cambios de alcance, calidad, gestión de comunicaciones, riesgos, etc.
+
+
+Administración de proyecto y principios de una buena administración
+Es la planificación, la delegación, el seguimiento y el control de todos los aspectos del proyecto y la motivación de los participantes para alcanzar los objetivos del proyecto dentro de los objetivos de rendimiento esperados en términos de tiempo, costo, calidad, alcance, beneficios y riesgos.
+
+La administración de proyectos es la aplicación de conocimientos, habilidades, herramientas y técnicas a actividades de proyectos para satisfacer los requisitos del proyecto.La administración del proyecto se logra mediante el uso de los procesos tales como: iniciar, planificar, ejecutar, controlar y cerrar.
+
+PRINCIPIOS DE UNA BUENA ADMINISTRACIÓN
+Los proyectos siempre necesitan ser gestionados para tener éxito
+El proyecto es un proceso finito con un comienzo y un final definidos
+Se requiere un compromiso sincero de todos los interesados
+Normalmente se requiere entrenamiento.
+
+
+WBS
+Es una descripción jerárquica del trabajo que se debe realizar para completar el proyecto.
+Es similar a una descomposición funcional. El trabajo se divide en actividades. Las actividades se dividen en tareas.
+El WBS es una herramienta para:
+1)diseñar y planificar el trabajo: permite a los integrantes del equipo visualizar cómo puede definirse y administrarse el trabajo del proyecto.
+2)diseñar la arquitectura: es un gráfico del trabajo del proyecto, muestra cómo se relacionan los distintos ítems de trabajo a realizar.
+3)planificar: se debe estimar esfuerzo , tiempos, y recursos para el último nivel.
+4)informar el estado del proyecto: es usada como una estructura para mostrar el grado de avance.
+
+
+Top Down (equipo completo)
+Todos los miembros del equipo participan de la descomposición.
+Se comienza con el nivel 0 (el de la meta) y se particiona sucesivamente hasta que los participantes estén satisfechos de que el trabajo ha sido suficientemente definido.
+Debido a que las actividades se definen con el suficiente nivel de detalle, las estimaciones de costo, tiempo y recursos son más exactas.
+Una vez que las actividades se han definido, se deben secuenciar. 
+Se debe analizar quéactividades se pueden hacer concurrentemente.
+Ventaja:brinda la oportunidad de que todos presten atención al WBS, y se discuta en el momento.
+
+Top Down (subequipos)
+El equipo completo acuerda la partición del primer nivel.
+Se crean tantos sub-equipos como actividades haya en el nivel uno.
+Cada sub-equipo particiona una actividad (se le asigna la actividad para la cual tenga más experiencia).
+Un sub-equipo puede solicitar ayuda externa.
+Demanda menos tiempo que el enfoque anterior.
+
+Bottom Up (sub equipos)
+Se asemeja a una lluvia de ideas (brainstorming).
+El equipo completo acuerda la partición del primer nivel
+Se crean tantos sub-equipos como actividades haya en el nivel uno.
+Cada sub-equipo particiona una actividad (se le asigna la actividad para la cual tenga más experiencia).
+Cada grupo hace una lista de actividades en las cuales se descompone la actividad de nivel 1 asignada.
+Los integrantes presentan ideas sobre las tareas que involucra cada una de esas sub-actividades.
+El grupo clasifica las actividades que parecieran relacionarse. 
+Se reunen todos los grupos y cada grupo presenta sus resultados. 
+Se discute en conjunto.
+La desventaja de este enfoque es no definir las tareas con el suficiente grado de granularidad.
+Existen metodologías que ayudan a la descomposición de actividades: proveen listados de las tareas.
+
+
+Completitud de una actividad
+Cada actividad debe poseer 6 características para considerarse completa:
+1)Estado medible2
+)Acotada
+3)Producir un entregable
+4)Tiempo y costo estimable
+5)Duración aceptable
+6)Independiente
+
+
+Duración y esfuerzo de trabajo de una actividad
+Duración es el tiempo transcurrido en días laborables para finalizar el proyecto -sin considerar feriados, fines de semana, días no laborables.
+Esfuerzo de Trabajo es la labor requerida para completar una actividad. La labor se puede realizar en horas consecutivas o no.
+El tiempo transcurrido es diferente al tiempo de trabajo en una actividad. Existen imprevistos, interrupciones, actividades sociales
+
+
+Crash de actividad y crashpoint
+La duración de una actividad es influenciada por la cantidad de recursos planificados para trabajar en ella. Se dice influenciada, ya que no es una relación lineal directa entre la cantidad de recursos asignados a la tarea y la duración de la misma.
+
+Crash de la Actividad: agregar más recursos para mantener la duración de una actividad dentro de los límites planificados.
+Crashpointde la Actividad: es el punto en el cual agregar más recursos aumenta la duración de la actividad.
+
+
+Técnicas de estimación de la duración de una actividad
+Existen distintas técnicas para estimar esfuerzo:
+1) similitud con otras actividades: Estimar en base a las estimaciones de actividades similares de otros proyectos. Los datos están en la memoria de las personas.
+2) datos históricos: Estimar en base a las estimaciones de actividades similares de otros proyectos. Los datos están en un registro – base de datos, no sólo en la memoria de las personas. La base de datos histórica puede ser tan sofisticada como se desee.
+3) juicio experto: Las estimaciones las realizan consultores externos o vendedores con experiencia en la metodología o en la tecnología. Si el juicio experto se basa en la estimación de vendedores, las estimaciones pueden no ser objetivas.
+4) técnica Delphi: Es una técnica de grupo que extrae y resume el conocimiento del grupo para arribar a una estimación. 
+En la primer pasada se le pide a cada miembro del grupo a que realice su estimación.
+Aquellos participantes cuyas estimaciones cayeron en los cuartiles exteriores, se les pide que justifiquen su estimación. Luego de escuchar los argumentos, se les pide a los miembros que vuelvan a estimar.Los resultados se presentan en un histograma rotulado "Segunda Pasada". Las posiciones extremas se defienden.
+Nuevamente se hace otra estimación.Los resultados se publican como la "Tercera Pasada".Se permiten ajustes finales.El promedio de la tercera pasada se usa como estimación del grupo.
+5) técnica de 3 puntos: Se necesitan 3 estimaciones de la duración de la actividad: 1) optimista, 2) pesimista, y 3) media.
+Estimación Optimista: es la duración mas corta suponiendo que todo suceda de acuerdo a la planificado.
+Estimación Pesimista: la duración de la actividad suponiendo que falle todo lo que se prevé que puede fallar.
+Estimación Media: la duración normal (usual) de la actividad.
+Estimación = (Optimista + 4*Media + Pesimista)/6
+6) técnica Delphi de banda ancha: Es una combinación de la técnica Delphi y la de 3 Puntos.
+Se basa en la técnica Delphi pero a cada integrante se le pide que haga las 3 estimaciones: la optimista, la pesimista y la media.
+Se recopilan los resultados y se eliminan los extremos.
+Se calculan los promedios de optimistas, pesimistas y medias.
+Se calcula con la fórmula de 3 Puntos utilizando los promedios.
+
+
+Técnicas de estimación del costo de una actividad
+LLUVIA DE IDEAS:  Técnica para generar muchas ideas en un grupo. Requiere la participación espontánea de todos. La técnica permite obtener nuevas ideas y soluciones creativas e innovadoras, rompiendo paradigmas establecidos. El clima de participación y motivación asegura mayor calidad en las decisiones tomadas por el grupo, más compromiso con la actividad y un sentimiento de responsabilidad compartido por todos.
+Opinión Experta: toma ventaja de la experiencia de un personal de desarrollo senior. El desarrollador describe los parámetros del proyecto y el experto hace predicciones basadas en experiencias previas.
+Analogía: los estimadores comparan el proyecto propuesto con proyectos pasados. Identifican similitudes y diferencias.Es mas visible. Exige definir características claves.
+Descomposición: El análisis se focaliza en el producto o en las tareas requeridas para construirlo. Se basa en la descomposición del producto en componentes y de las actividades en tareas. Se basan en casos promedios o experiencias pasadas.
+Modelos: son técnicas que identifican contribuyentes claves al esfuerzo, generando fórmulas matemáticas que relacionan estos items al esfuerzo. Estas técnicas se pueden aplicar con los siguientes enfoques:
+1) Bottom-Up : comienza con las partes de menor nivel y provee estimaciones para cada una de ellas.
+2) Top-Down : estima el producto o proceso completo. Las estimaciones para cada componente son calculadas como porciones relativas del todo.
+
+Estimación de costos
+La estimación de costos es parte del planeamiento de cualquier actividad de ingeniería. La diferencia en Ing de Software es que el costo principal son los recursos humanos.
+La estimación de costos tiene dos usos:
+En Planificación: se necesita saber cuantos recursos va a insumir.
+En Control: Se necesita saber cuanto se hizo y cuanto falta
+Se necesitan métodos predictivos para estimar la compliejidad del software antes de que sea desarrollado.
+
+
+COCOMO, diferencia con COCOMO 2.0
+
+En COCOMO 1, el tamaño del software se expresa mediante líneas de código. Por el contrario, COCOMO 2 proporciona más factores para expresar el tamaño del software, como puntos de objeto, línea de código y también puntos de función.
+Existen tres submodelos en COCOMO 1 (es decir, básico, intermedio, avanzado), mientras que en COCOMO 2 son 4 (modelo de desarrollo de aplicaciones, modelo de diseño inicial, modelo de reutilización y modelo post-arquitectónico).
+COCOMO 2 utiliza 17 números de generadores de costos. Por el contrario, COCOMO 1 utiliza 15 generadores de costos.
+No se utilizan factores de escala en COCOMO 1, mientras que COCOMO 2 emplea los factores de escala para estimar el esfuerzo.
+COCOMO 2 puede mitigar el nivel de riesgo en comparación con el modelo COCOMO 1.
+
+
+
+Problemas que enfrentan las organizaciones por las cuales es necesario pensar en funciones de auditoría:
+1)costos por pérdida de datos
+2)costos por decisiones incorrectas
+3)costos por abusos computacionales
+4)costos por errores de computación
+5)valor de hardware, software y personal
+6)mantenimiento de privacidad
+7)evolución controlada del uso de computadoras
+
+
+Los objetivos de la auditoría se pueden alcanzar implementando un sistema de control interno, que incluya:
+1)separación de obligaciones,
+2)delegación clara de autoridad y responsabilidades,
+3)reclutamiento y entrenamiento de personal calificado,
+4)sistema de autorizaciones,
+5)documentos y registros adecuados,
+6)control físico y documentación sobre los activos,
+7)chequeos independientes de performance, 
+8)comparación periódica de activos con registros contabilizados
+
+
+Atributos de calidad de datos:
+»Inherente
+-Exactitud: Los datos representan de forma correcta el verdadero valor
+-Completitud: Los datos tiene valores para todos los atributos esperados
+-Consistencia: Los datos están libre de contradicciones y están coherentes con el resto de los datos
+-Credibilidad: Los usuarios consideran que los datos son creíbles
+-Actualidad: Los datos tienen un tiempo adecuado
+
+»Dependientes del sistema
+-Disponibilidad: Los datos pueden ser recuperados por los usuarios autorizados
+-Portabilidad: Los datos pueden ser instalados, reemplazados o movidos de un sistema a otro
+-Recuperabilidad: Los datos se mantienen y preservan un nivel especificado de operaciones y de calidad, incluso en caso de fallo
+
+»Inherentes y dependientes
+-Accesibilidad: Se puede acceder a los datos, en especial por personas con discapacidades
+-Cumplimiento: Los datos se adhieren a estándares convenciones o normas
+-Confidencialidad: Los datos son accesibles e interpretados por los usuarios autorizados
+-Eficiencia: Los pueden ser procesados y proporcionan el nivel de rendimiento esperado
+-Precisión: Los datos son exactos
+-Trazabilidad: Los datos proporcionan la información necesaria para poder auditar los accesos y las modificaciones que se les han realizado
+-Compresibilidad: Los datos pueden ser leído e interpretados por los usuarios
+

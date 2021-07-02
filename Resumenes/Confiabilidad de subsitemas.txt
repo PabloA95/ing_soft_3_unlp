@@ -1,0 +1,80 @@
+Para administrar la complejidad, se sugiere:
+1) factorizar el sistema en subsistemas
+2) determinar la **confiabilidad de cada subsistema**, y las implicancias de cada uno de ellos en el nivel de confiabilidad general del sistema.
+
+	CONFIABILIDAD DE SUBSISTEMAS
+	Primero - determinar el menor nivel de los subsistemas.
+	Segundo - evaluar la **confiabilidad de los controles** en cada subsistema.
+
+		CONFIABILIDAD DE CONTROLES
+		Para evaluar la confiabilidad de los controles:
+		1) se deben identificar todos los posibles tipos de eventos que pueden ocurrir en el subsistema.
+		2) se deben considerar todos los eventos válidos o ilegales.
+		Para identificar los eventos, hay que **considerar las principales funciones** que realiza el subsistema.
+
+			CONSIDERAR LAS PRINCIPALES FUNCIONES
+			Para cada función:
+			1) analizar cómo debería realizarse
+			2) evaluar cómo el subsistema cumple con esa visión normativa.
+			Para determinar si un **evento** es legal o ilegal se deben considerar las **transacciones** que pueden ocurrir como input al subsistema.
+			Todos los eventos en un sistema de aplicación deben surgir de una transacción.
+
+				EVENTOS Y TRANSACCIONES
+				Cuando un evento ocurre, el sistema recibe una transacción de input.
+				Cuando la transacción se recibe como input el sistema cambia de estado.
+				Otros cambios de estado ocurren a medida que el sistema procesa la transacción. Ejemplo: toma de pedidos.
+				Para identificar todos los eventos que pueden ocurrir en un sistema como resultado de la transacción, se debe entender cómo el sistema **procesa la transacción**.
+
+					PROCESAMIENTO DE TRANSACCIONES
+					Generalmente los auditores aplican técnicas de walk-through:
+					1) se considera una transacción particular,
+					2) se identifican todos los componentes del sistema que procesan la transacción
+					3) se trata de entender cada paso de procesamiento que ejecuta cada componente
+					4) se considera cualquier error o irregularidad (evento ilegal) que pueda ocurrir en el camino.
+					
+					CLASES DE TRANSACCIONES
+					Generalmente es muy costoso realizar este proceso para todas las transacciones.
+					Por eso, se trabaja con clases de transacciones:
+					1) se agrupan transacciones que tengan un procesamiento similar,
+					2) se trata de entender esas transacciones, y los eventos que puedan surgir como resultado de esas transacciones como grupo,
+					3) se tratan sólo aquellas transacciones que se consideran importantes para los objetivos de la auditoría.
+
+					¿QUÉ EVENTOS?
+					Usando esta técnica, no se identifican todos los eventos que puedan surgir en un sistema.
+					A pesar de esto, los auditores deberían examinar todas aquellas transacciones y eventos que consideren importantes.
+					Una vez que se han identificado los eventos que pueden ocurrir, los auditores deben evaluar:
+					1) si los controles están correctamente ubicados, y
+					2) si funcionan para detectar eventos ilegales.
+
+		CONFIABILIDAD DE LOS CONTROLES - 1
+		Los auditores deben recolectar evidencias sobre la existencia y confiabilidad de los controles, para determinar si las pérdidas por los eventos ilegales se reducen a niveles aceptables.
+		Para cada evento ilegal, se debe considerar:
+		1) cómo los controles cubren a ese tipo de evento,
+		2) cuánto de confiable son los controles,
+		3) si puede ocurrir un error material o una irregularidad.
+		CONFIABILIDAD DE LOS CONTROLES - 2
+		Se publican listas que ayudan a realizar esta tarea. Las listas muestran los controles que se pueden realizar para reducir las pérdidas esperadas por errores o irregularidades. Estas listas muestran por ejemplo:
+		1) las caídas en los sistemas de información,
+		2) errores e irregularidades que ocurren en diferentes tipos de transacciones.
+
+ESTIMAR LA CONFIABILIDAD
+La evaluación de la confiabilidad procede de abajo hacia arriba en el nivel de estructura de los sistemas.
+Los subsistemas de menor nivel son componentes de los de mayor nivel.
+Cuando se haya evaluado la confiabilidad de los subsistemas de menor nivel, se puede analizar:
+1) el impacto
+2) la naturaleza, y
+3) la frecuencia de los eventos ilegales
+en los sistemas de mayor nivel.
+
+ESTIMAR LA CONFIABILIDAD – PASOS
+En cualquier nivel de la estructura, los pasos de evaluación son:
+1) identificar las transacciones que ingresan al sistema
+2) considerar los eventos legales e ilegales que puedan ocurrir
+3) asegurar la confiabilidad de los controles que detectan los eventos ilegales
+
+DETECTAR NUEVOS CONTROLES
+A medida que se evalúan los sistemas de más alto nivel, se pueden encontrar nuevos controles debido a:
+1) Los controles en sistemas de bajo nivel pueden funcionar mal. Ejemplo: se divide el trabajo en varias personas y un superior controla el funcionamiento general.
+2) Podría ser más efectivo en costos implementar controles a alto nivel. Ejemplo: en lugar de que cada uno controle su trabajo, un superior aleatoriamente supervisa el trabajo por muestreo.
+3) Algunos eventos no se manifiestan como ilegales excepto en los niveles altos.
+Ejemplo: consultas a una base de datos sin violar confidencialidad.

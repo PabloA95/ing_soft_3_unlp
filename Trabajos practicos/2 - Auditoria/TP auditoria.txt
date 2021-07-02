@@ -1,0 +1,83 @@
+1- Recopilación de información básica
+
+
+2- Identificación de riesgos potenciales
+    Es la parte del proceso de auditoría en la que conocemos e inspeccionamos los riesgos.
+    El objetivo de la identificación del riesgos es conocer los sucesos que se pueden producir en la organización y las consecuencias que puedan tener sobre los objetivos de la empresa.
+    - Instrumentos para identiﬁcar riesgos
+	    Indagaciones ante la dirección y ante las personas que conforman la entidad en general
+	    Procedimientos analíticos
+	    Observación e inspección
+
+
+3- Objetivos de control
+    Objetivos de control
+    ● Mecanismo para implementar procedimientos dentro de un sistema de información.
+    ● Son utilizados para determinar objetivos especíﬁcos contra los cuales se evaluará la eﬁcacia de los controles
+    ● Deben ser claros y concisos ya que son la base para la implementación de la auditoría
+    ● Son genéricos (independientes de plataforma técnica utilizada)
+    ● Al estar orientados a procesos, permiten mejorar la ejecución de los mismos
+    ● Deﬁnen las categorías de riesgo para un proceso o subproceso
+    ● Existen estándares como COBIT que deﬁnen procesos genéricos para la gobernanza y administración de IT. Contiene principios cubriendo todos los aspectos de alto nivel de tecnología informática.
+
+
+4- Determinación de los procedimientos de control
+    Para definir un procedimiento de control identificamos qué acciones se deben hacer para reducir la exposición al riesgo, es decir, qué controles deben diseñarse e implementarse en el sistema de control interno para mitigar o eliminar la eventual pérdida.
+
+	TÉCNICAS PARA RECOLECTAR EVIDENCIAS
+	Revision de papeles de trabajo de auditorias previas.
+	Entrevistas con alta gerencia y personal superior
+	Observación de como se desarrollan las actividades.
+	Revision de documentación de sistemas.
+
+
+5- Pruebas a realizar
+    Desarrollar las pruebas que una vez aplicadas permitirán al auditor la veriﬁcación del grado de cumplimiento de los objetivos de control de acuerdo al ámbito a evaluar.
+    Es necesario evaluar si los controles utilizados fueron correctamente diseñados para el cumplimiento de sus ﬁnes, y probar su adecuado funcionamiento.
+
+	Se realizarán pruebas de cumplimiento y pruebas sustantivas
+	- Pruebas de cumplimiento
+	Quién llevó a cabo los procedimientos de control, cómo fueron realizados, y si los controles que se indican son verídicos
+	- Pruebas sustantivas
+	Basadas en la aplicación, se testean los registros, logs, transacciones, para detectar irregularidades
+
+
+6- Obtención de los resultados
+    Esta etapa tiene como propósito obtener los resultados de las aplicaciones de los:
+    Procedimientos de control
+    Pruebas realizadas
+
+
+7- Conclusiones y comentarios
+    Esta etapa está estrechamente vinculada con la elaboración del informe de auditoría.
+    Hallazgos que surgen de Evidencias
+    	Se evalúan las evidencias contra uno o más criterios
+    	Indicarán conformidad o no conformidad
+    (hallazgos) Sobre los que se formulan conclusiones sobre cada procedimiento y sobre cada uno de los componentes
+    (conclusiones) Se redactarán formalmente en el Informe de auditoría
+
+
+8- Redacción y presentación del borrador del informe al responsable del área de informática
+    Este informe es un documento que intenta formalizar los resultados de la auditoría. Es a través de él que los auditores van a mostrar lo que fue examinado, destacando los puntos positivos, puntos negativos y sus conclusiones.
+
+	Para qué sirve?
+	Presenta información técnica y más detallada que el informe final.
+	Informar al responsable del area de Informatica sobre los resultados obtenidos.
+	Permite dar un paso para redactar el informe final en términos no técnicos.
+
+
+9- Redacción del informe, resumen y conclusiones y entrega a los directivos
+    Un informe de auditoría es el proceso de recoger, agrupar y evaluar evidencias para determinar si un sistema informatizado salvaguarda los activos, mantiene la integridad de los datos, lleva a cabo eﬁcazmente los ﬁnes de la organización y utiliza eﬁcientemente los recursos.
+
+	Debe contener:
+	● Conclusiones a las que se llegaron
+	● Opinión personal del auditor
+	● Evidencias encontradas
+	Redacción del informe, resumen y conclusiones y entrega a los directivos
+	1) Introducción
+	2) Enfoque general utilizado
+	3) Conclusiones críticas
+	4) Recomendaciones para abordar las conclusiones críticas
+	5) Datos que respalden las conclusiones críticas
+	6) Opiniones
+	7) Entrega a directivos

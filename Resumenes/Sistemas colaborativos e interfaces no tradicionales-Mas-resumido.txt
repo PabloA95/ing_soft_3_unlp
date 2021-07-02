@@ -1,0 +1,114 @@
+TRABAJO COLABORATIVO
+DEFINICIÓN
+El trabajo colaborativo supone poner en común conocimientos, materiales e ideas con la finalidad de compartirlos, normalmente de forma desinteresada para construir un conocimiento común que se pueda utilizar globalmente. [Wikipedia]
+
+Aquellos procesos intencionales de un grupo para alcanzar objetivos específicos, apoyados por herramientas para dar soporte y facilitar este tipo de aportes.
+
+TRABAJO COLABORATIVO - UBICUIDAD
+
+La mayoría de las tareas que realizan los miembros de estas comunidades en forma colaborativa está soportada por herramientas automatizadas.
+
+HERRAMIENTAS PARA TAREAS COLABORATIVAS – EVOLUCIÓN
++	Groupware avanzado
+	Correo electrónico
+	Bases de datos, Administrador de código
+	Servidor de archivos en red
+-	Sistemas operativos, redes, comunicaciones
+
+REQUERIMIENTOS PARA LAS HERRAMIENTAS
+El grado en el cual la tecnología soporta las tareas colaborativas abarca la registración usuarios, la revisión cooperativa, el control de versiones de documentos,...
+
+Se deben soportar los dos tipos posibles de interacciones entre los usuarios:
+sincrónicos - como salas de chat
+asincrónicos - foros de correo electrónico.
+
+SISTEMAS GROUPWARE
+SISTEMAS COLABORATIVOS
+DEFINICIÓN: Herramientas que permiten la realización de estas tareas colaborativas
+Programas informáticos que integran el trabajo en un sólo proyecto con muchos usuarios concurrentes que se encuentran en diversas estaciones de trabajo, conectadas a través de una red – intranet o Internet. [Wikipedia]
+TIPO DE SOPORTE
+El soporte debe ser distinto dependiendo si los usuarios interactúan en el mismo o diferente espacio y tiempo,
+
+MODELOS CONCEPTUALES DE COLABORACIÓN
+- correos electrónicos
+	Permite un intercambio de información directo entre los miembros de una comunidad.
+	Es un intercambio simple y sólo requiere que los miembros posean facilidades de correo electrónico.
+	Existen distintas alternativas
+		los miembros pueden enviarse mensajes entre ellos y todos los otros miembros pueden recibir copias de los mensajes relevantes
+		los mensajes pueden ser distribuidos en base a listas de distribución
+	El software del lado del servidor se ocupa de administrar el intercambio de mails y de mantener las listas de correo. La tecnología utilizada es “push”, ya que es el receptor del correo el responsable de clasificar, archivar y ordenar su flujo de correos.
+	Una alternativa pública de correo electrónico es el grupo de noticias de Internet – Internet newsgroup
+
+- acceso compartido
+	permite que los miembros puedan acceder directamente a los mismos archivos en un repositorio común en un server particular.
+	Es el modelo más común para trabajo colaborativo en red.
+	El problema que presenta es la coordinación para la edición y actualización del mismo documento por distintos miembros.
+	A fin de encontrar ítems particulares en el área compartida, se necesita una especie de índice o un conocimiento previo de lo que allí se almacena.
+
+- páginas interactivas
+	El acceso mediante páginas interactivas se produce cuando los usuarios pueden colectivamente editar el mismo material.
+	Diferentes implementaciones, como por ejemplo: llamadas de conferencias, colaboraciones a través de pizarras (whiteboards), comentarios a la revisión de documentos, o notas linkeadas.
+	La principal característica es que los miembros pueden colaborar haciendo comentarios, ya sea en tiempo real o en forma asincrónica editando los mismos documentos.
+	Se asemeja más a una discusión verbal entre los miembros, con el valor agregado de que esta discusión virtual es persistente, ya que los documentos quedan grabados en el computador.
+
+- foros de discusión
+	Nacen en torno a un interés común que comparten sus miembros
+	Se pueden clasificar los diferentes temas de discusión y debate.
+	Son de naturaleza asincrónica
+	La comunicación es muchos a muchos.
+	Debido a la persistencia de la información, la búsqueda, el análisis, la organización y la interpretación de la misma se facilita.
+	La comunicación desarrollada a partir de los foros suele realizarse de manera más reflexiva que la comunicación oral.
+	TIPOS: PÚBLICOS, PROTEGIDOS, PRIVADOS
+	En foros de gran tamaño y con mucha actividad el rol del moderador es crítica, pero debe mostrar un comportamiento lo más neutro posible. El moderador debe asegurar el tono adecuado de la discusión
+	Hay formas más o menos visibles de moderar.
+	Sólo se debe editar o eliminar un mensaje si el mismo vulnera claramente las normas del foro. Suspender una cuenta es una acción posible, pero drástica.
+
+ESTILO DE ARQUITECTURA DE SISTEMAS COLABORATIVOS
+CARACTERÍSTICAS
+- Múltiples componentes acceden al mismo almacenamiento de datos.
+- Los componentes se comunican entre ellos a través de dicha memoria
+- El diseño se centra especialmente en los repositorios compartidos
+ESTILOS
+Blackboard
+	- Expertos cooperando para resolver un problema planteado en un pizarrón
+	- Cada uno identifica una parte del problema, la resuelve y pone el resultado de nuevo en el pizarrón
+	- Con esa solución, otro experto puede identificar otro sub-problema y resolverlo o Así se continua hasta resolver el problema general
+	- El estado de la información en el pizarrón determina el orden de ejecución de los distintos programas expertos.
+	ANÁLISIS
+		- DESCRIPCIÓN
+		- COMPONENTES
+		- CONECTORES
+		- ELEMENTOS DE DATOS
+		- TOPOLOGÍA
+		- RESTRICCIONES ADICIONALES
+		- CUALIDADES
+		- USOS TÍPICOS
+		- PRECAUCIONES
+
+CRITERIOS PARA EVALUAR SOFTWARE COLABORATIVO: Administración de usuarios, administración de contenido, funciones para el administrador, facilidades para publicación de noticias, facilidades para manejo de foros, facilidades de correo entre los miembros, interoperabilidad, tecnologías de desarrollo, otras facilidades
+
+-----------------------------------------------------------------------------------------
+
+INTERFACES NO TRADICIONALES
+DEFINICIÓN
+Son las interfaces que involucran nuestros sentidos
+Es aún un área de mucha investigación si bien algunas tecnologías se han aplicado en importantes productos.
+
+Interfaces hápticas (sentido de tacto y movimiento del cuerpo), interfaces gestuales (movimientos de manos y cara), habla y audición, interfaces olfativas, gusto (en investigación), otros
+
+GENERALIDADES
+- se aplica el ciclo de vida de Experiencia de Usuario (UX)
+- se aplican las facilidades y directrices de diseño
+- todavía se necesita lograr capacidad de aprendizaje, memorización, comprensibilidad, efectividad, y satisfacción
+- mayor necesidad de tener en cuenta las habilidades y capacidades físicas del usuario
+- la localización es necesaria
+- Diferentes técnicas de interfaz colaboran para soportar la UX así como lo hacen nuestro sentidos naturales
+
+INTERFACES HÁPTICAS
+Basado en dos sentidos integrados relacionados con el tacto humano:
+1) Retroalimentación táctil (cutánea) basada en el sentido del tacto
+2) Movimiento (kinestésico)
+Administrar comunicación con el entorno de sentido bidireccional, capturando datos y ejerciendo fuerza sobre el medio ambiente
+
+TECNOLOGÍAS PARA INTERFACES NO TRADICIONALES
+Varios sensores y actuadores, y manipulación de dispositivos (ejemplos: guantes y brazos)
